@@ -1,5 +1,5 @@
 # Token de autenticacion
-huggingface_token: "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"
+huggingface_token: "xxxxxxxxxxx"
 
 # Ruta para salvar imagenes ejemplo
 output_path: "./output"
