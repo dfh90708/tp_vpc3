@@ -1,0 +1,1811 @@
+2025-06-13 20:43:00,669 [INFO] Inicializando la pipeline ViT...
+2025-06-13 20:43:00,671 [INFO] Configuración cargada: {'huggingface_token': 'hf_xxx_tu_token', 'dataset_name': 'oxford_iiit_pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 20:43:00,671 [INFO] 🚀 Ejecutando la pipeline completa...
+2025-06-13 20:43:00,671 [INFO] ✅ Pipeline completada correctamente.
+2025-06-13 20:44:09,223 [INFO] Inicializando la pipeline ViT...
+2025-06-13 20:44:09,224 [INFO] Configuración cargada: {'huggingface_token': 'hf_xxx_tu_token', 'dataset_name': 'oxford_iiit_pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 20:44:09,224 [INFO] 🚀 Ejecutando la pipeline completa...
+2025-06-13 20:44:09,224 [ERROR] 🚀 Ejecutando la pipeline completa...
+2025-06-13 20:44:09,224 [INFO] ✅ Pipeline completada correctamente.
+2025-06-13 20:53:43,806 [INFO] Inicializando la pipeline ViT...
+2025-06-13 20:53:43,807 [INFO] Configuración cargada: {'huggingface_token': 'hf_xxx_tu_token', 'dataset_name': 'oxford_iiit_pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 20:53:43,807 [INFO] 🚀 Ejecutando la pipeline completa...
+2025-06-13 20:53:43,807 [CRITICAL] 🚀 Ejecutando la pipeline completa...
+2025-06-13 20:53:43,807 [INFO] ✅ Pipeline completada correctamente.
+2025-06-13 21:16:13,924 [INFO] Inicializando la pipeline ViT...
+2025-06-13 21:16:13,925 [INFO] Configuración cargada: {'huggingface_token': 'hf_xxx_tu_token', 'dataset_name': 'oxford_iiit_pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 21:16:13,925 [INFO] 🚀 Ejecutando la pipeline completa...
+2025-06-13 21:16:13,925 [CRITICAL] 🚀 Ejecutando la pipeline completa...
+2025-06-13 21:16:13,925 [INFO] ✅ Pipeline completada correctamente.
+2025-06-13 21:20:27,762 [INFO] Inicializando la pipeline ViT...
+2025-06-13 21:20:27,763 [INFO] Configuración cargada: {'huggingface_token': 'hf_xxx_tu_token', 'dataset_name': 'oxford_iiit_pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 21:20:27,763 [INFO] 🚀 Ejecutando la pipeline completa...
+2025-06-13 21:20:27,973 [ERROR] Error de autenticación: Invalid user token.
+2025-06-13 21:23:00,576 [INFO] Inicializando la pipeline ViT...
+2025-06-13 21:23:00,577 [INFO] Configuración cargada: {'huggingface_token': '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', 'dataset_name': 'oxford_iiit_pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 21:23:00,577 [INFO] 🚀 Ejecutando la pipeline completa...
+2025-06-13 21:23:00,782 [INFO] Hugging Face. Autenticación exitosa.
+2025-06-13 21:23:00,783 [INFO] ✅ Pipeline completada correctamente.
+2025-06-13 21:34:38,400 [INFO] Inicializando la pipeline ViT...
+2025-06-13 21:34:38,401 [INFO] Configuración cargada: {'huggingface_token': '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', 'dataset_name': 'oxford_iiit_pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 21:34:38,401 [INFO] Ejecutando la pipeline completa...
+2025-06-13 21:34:38,618 [INFO] Hugging Face. Autenticación exitosa.
+2025-06-13 21:34:38,618 [INFO] Pipeline completada correctamente.
+2025-06-13 21:38:30,298 [INFO] Inicializando la pipeline ViT...
+2025-06-13 21:38:30,299 [INFO] Configuración cargada: {'huggingface_token': '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', 'dataset_name': 'oxford_iiit_pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 21:38:30,299 [INFO] Ejecutando la pipeline completa...
+2025-06-13 21:38:30,553 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-13 21:38:30,553 [INFO] Pipeline completada correctamente.
+2025-06-13 21:38:50,074 [INFO] Inicializando la pipeline ViT...
+2025-06-13 21:38:50,074 [INFO] Configuración cargada: {'huggingface_token': 'f_beBCWWUKuWNFKKHhOpNyJgtkoZmpmHrumR', 'dataset_name': 'oxford_iiit_pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 21:38:50,074 [INFO] Ejecutando la pipeline completa...
+2025-06-13 21:38:50,266 [ERROR] [AUTENTICACION]Hugging Face. Error de autenticación: Invalid user token.
+2025-06-13 21:39:52,243 [INFO] Inicializando la pipeline ViT...
+2025-06-13 21:39:52,244 [INFO] Configuración cargada: {'huggingface_token': 'f_beBCWWUKuWNFKKHhOpNyJgtkoZmpmHrumR', 'dataset_name': 'oxford_iiit_pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 21:39:52,244 [INFO] [MAIN] Ejecutando la pipeline completa...
+2025-06-13 21:39:52,460 [ERROR] [AUTENTICACION] Hugging Face. Error de autenticación: Invalid user token.
+2025-06-13 21:47:38,558 [INFO] Inicializando la pipeline ViT...
+2025-06-13 21:47:38,558 [ERROR] [CONFIGURACION] Error al cargar configuración: 'Model_Pipeline' object has no attribute 'config'
+2025-06-13 21:48:38,696 [INFO] Inicializando la pipeline ViT...
+2025-06-13 21:48:38,697 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': 'f_beBCWWUKuWNFKKHhOpNyJgtkoZmpmHrumR', 'dataset_name': 'oxford_iiit_pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 21:48:38,697 [INFO] [MAIN] Ejecutando la pipeline completa...
+2025-06-13 21:48:38,902 [ERROR] [AUTENTICACION] Hugging Face. Error de autenticación: Invalid user token.
+2025-06-13 21:50:21,217 [INFO] ---------------------------------------------------
+2025-06-13 21:50:21,218 [INFO] Inicializando la pipeline ViT...
+2025-06-13 21:50:21,218 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': 'f_beBCWWUKuWNFKKHhOpNyJgtkoZmpmHrumR', 'dataset_name': 'oxford_iiit_pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 21:50:21,218 [INFO] [MAIN] Ejecutando la pipeline completa...
+2025-06-13 21:50:21,469 [ERROR] [AUTENTICACION] Hugging Face. Error de autenticación: Invalid user token.
+2025-06-13 22:15:15,834 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-13 22:15:15,834 [INFO] Inicializando la pipeline ViT...
+2025-06-13 22:15:15,835 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': 'f_beBCWWUKuWNFKKHhOpNyJgtkoZmpmHrumR', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 22:15:15,835 [INFO] [MAIN] Ejecutando la pipeline completa...
+2025-06-13 22:15:16,019 [ERROR] [AUTENTICACION] Hugging Face. Error de autenticación: Invalid user token.
+2025-06-13 22:15:29,555 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-13 22:15:29,555 [INFO] Inicializando la pipeline ViT...
+2025-06-13 22:15:29,556 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 22:15:29,556 [INFO] [MAIN] Ejecutando la pipeline completa...
+2025-06-13 22:15:29,743 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-13 22:15:29,744 [INFO] [MAIN] Pipeline completada correctamente.
+2025-06-13 22:16:37,303 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-13 22:16:37,303 [INFO] Inicializando la pipeline ViT...
+2025-06-13 22:16:37,304 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 22:16:37,304 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-13 22:16:37,494 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-13 22:16:37,494 [INFO] [CARGAR DATASET] Cargando dataset: timm/oxford-iiit-pet
+2025-06-13 22:17:51,009 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-13 22:21:16,695 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-13 22:21:16,695 [INFO] Inicializando la pipeline ViT...
+2025-06-13 22:21:16,696 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'dataset_name': 'timm/oxford-iiit-pet...', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 22:21:16,696 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-13 22:21:16,881 [INFO] --[AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-13 22:21:16,881 [INFO] --[CARGA DATASET] Cargando dataset: timm/oxford-iiit-pet...
+2025-06-13 22:21:16,882 [ERROR] --[CARGA DATASET] Error al intentar cargar el dataset: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: 'timm/oxford-iiit-pet...'.
+2025-06-13 22:21:16,882 [ERROR] [MAIN] Error en el Pipeline: Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: 'timm/oxford-iiit-pet...'.
+2025-06-13 22:33:01,987 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-13 22:33:01,987 [INFO] Inicializando la pipeline ViT...
+2025-06-13 22:33:01,987 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 22:33:01,988 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-13 22:33:02,175 [INFO] --[AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-13 22:33:02,176 [INFO] --[CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-13 22:33:05,707 [INFO] --[CARGA DATASET] 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-13 22:33:05,707 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-13 22:34:46,600 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-13 22:34:46,600 [INFO] Inicializando la pipeline ViT...
+2025-06-13 22:34:46,600 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-13 22:34:46,601 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-13 22:34:46,795 [INFO] --[AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-13 22:34:46,796 [INFO] --[CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-13 22:34:50,237 [INFO] --[CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-13 22:34:50,238 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 11:07:35,247 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 11:07:35,248 [INFO] Inicializando la pipeline ViT...
+2025-06-14 11:07:35,248 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 11:07:35,249 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 11:07:35,249 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_11.07.35
+2025-06-14 11:07:35,431 [INFO] --[AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 11:07:35,431 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 13:37:24,403 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 13:37:24,404 [INFO] Inicializando la pipeline ViT...
+2025-06-14 13:37:24,405 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 13:37:24,405 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 13:37:24,405 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_13.37.24
+2025-06-14 13:37:24,587 [INFO] --[AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 13:37:24,587 [INFO] --[CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 13:37:28,417 [INFO] --[CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 13:37:28,417 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 13:38:50,241 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 13:38:50,241 [INFO] Inicializando la pipeline ViT...
+2025-06-14 13:38:50,242 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 13:38:50,242 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 13:38:50,242 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_13.38.50
+2025-06-14 13:38:50,430 [INFO] --[AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 13:38:50,431 [INFO] --[CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 13:38:53,819 [INFO] --[CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 13:38:53,819 [ERROR] --[PREPROCESAR DATASET] Error: module 'preprocess' has no attribute 'Preprocess'
+2025-06-14 13:38:53,819 [ERROR] [MAIN] Error en el Pipeline: module 'preprocess' has no attribute 'Preprocess'
+2025-06-14 13:42:01,436 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 13:42:01,436 [INFO] Inicializando la pipeline ViT...
+2025-06-14 13:42:01,437 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 13:42:01,437 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 13:42:01,437 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_13.42.01
+2025-06-14 13:42:01,625 [INFO] --[AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 13:42:01,626 [INFO] --[CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 13:42:05,309 [INFO] --[CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 13:42:05,309 [ERROR] --[PREPROCESAR DATASET] Error: module 'preprocess' has no attribute 'Preprocess'
+2025-06-14 13:42:05,310 [ERROR] [MAIN] Error en el Pipeline: module 'preprocess' has no attribute 'Preprocess'
+2025-06-14 13:42:50,100 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 13:42:50,101 [INFO] Inicializando la pipeline ViT...
+2025-06-14 13:42:50,102 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 13:42:50,102 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 13:42:50,102 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_13.42.50
+2025-06-14 13:42:50,476 [INFO] --[AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 13:42:50,477 [INFO] --[CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 13:42:53,972 [INFO] --[CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 13:42:53,972 [ERROR] --[PREPROCESAR DATASET] Error: module 'preprocess' has no attribute 'Preprocess'
+2025-06-14 13:42:53,972 [ERROR] [MAIN] Error en el Pipeline: module 'preprocess' has no attribute 'Preprocess'
+2025-06-14 13:48:57,407 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 13:48:57,407 [INFO] Inicializando la pipeline ViT...
+2025-06-14 13:48:57,408 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 13:48:57,408 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 13:48:57,408 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_13.48.57
+2025-06-14 13:48:57,631 [INFO] --[AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 13:48:57,631 [INFO] --[CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 13:49:01,415 [INFO] --[CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 13:49:01,565 [INFO] --[PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 13:49:01,690 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 14:01:27,836 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 14:01:27,836 [INFO] Inicializando la pipeline ViT...
+2025-06-14 14:01:27,837 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 14:01:27,837 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 14:01:27,837 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_14.01.27
+2025-06-14 14:01:28,026 [INFO] --[AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 14:01:28,026 [INFO] --[CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 14:01:31,482 [INFO] --[CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 14:01:31,613 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 14:01:31,613 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 14:01:31,613 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 14:01:31,613 [INFO] --[PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 14:01:31,613 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 14:04:25,903 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 14:04:25,903 [INFO] Inicializando la pipeline ViT...
+2025-06-14 14:04:25,904 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 14:04:25,904 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 14:04:25,904 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_14.04.25
+2025-06-14 14:04:26,101 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 14:04:26,102 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 14:04:29,819 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 14:04:29,819 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 14:04:29,963 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 14:04:29,963 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 14:04:29,963 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 14:04:29,963 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-14 14:04:29,963 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 14:07:47,523 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 14:07:47,523 [INFO] Inicializando la pipeline ViT...
+2025-06-14 14:07:47,524 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 14:07:47,524 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 14:07:47,524 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_14.07.47
+2025-06-14 14:07:47,713 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 14:07:47,713 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 14:07:51,359 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 14:07:51,359 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 14:07:51,517 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 14:07:51,517 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 14:07:51,517 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 14:07:51,518 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 14:07:51,518 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 14:07:51,518 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 14:07:51,518 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-14 14:07:51,518 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 14:13:34,471 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 14:13:34,472 [INFO] Inicializando la pipeline ViT...
+2025-06-14 14:13:34,473 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 14:13:34,473 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 14:13:34,473 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_14.13.34
+2025-06-14 14:13:34,663 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 14:13:34,663 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 14:13:38,149 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 14:13:38,150 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 14:13:38,326 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 14:13:38,326 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 14:13:38,326 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 14:13:38,327 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 14:13:38,327 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 14:13:38,327 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 14:13:38,327 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 14:13:38,327 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 14:13:38,327 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 14:13:38,327 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-14 14:13:38,328 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 14:24:10,520 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 14:24:10,520 [INFO] Inicializando la pipeline ViT...
+2025-06-14 14:24:10,521 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 14:24:10,521 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 14:24:10,521 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_14.24.10
+2025-06-14 14:24:10,708 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 14:24:10,708 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 14:24:14,128 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 14:24:14,128 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 14:24:14,164 [ERROR] [PREPROCESS INIT] Error: name 'plt' is not defined
+2025-06-14 14:24:14,164 [ERROR] [PREPROCESAR DATASET] Error: name 'plt' is not defined
+2025-06-14 14:24:14,164 [ERROR] [MAIN] Error en el Pipeline: name 'plt' is not defined
+2025-06-14 14:27:55,405 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 14:27:55,405 [INFO] Inicializando la pipeline ViT...
+2025-06-14 14:27:55,406 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 14:27:55,406 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 14:27:55,406 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_14.27.55
+2025-06-14 14:27:55,599 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 14:27:55,599 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 14:27:58,805 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 14:27:58,805 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 14:27:58,817 [ERROR] [PREPROCESS SAVE SAMPLE] Error: name 'plt' is not defined
+2025-06-14 14:27:58,817 [ERROR] [PREPROCESAR DATASET] Error: name 'plt' is not defined
+2025-06-14 14:27:58,817 [ERROR] [MAIN] Error en el Pipeline: name 'plt' is not defined
+2025-06-14 20:35:24,658 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 20:35:24,658 [INFO] Inicializando la pipeline ViT...
+2025-06-14 20:35:24,659 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 20:35:24,659 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 20:35:24,659 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_20.35.24
+2025-06-14 20:35:24,847 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 20:35:24,847 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 20:35:28,171 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 20:35:28,172 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 20:35:29,113 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 20:35:29,252 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 20:35:29,252 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 20:35:29,252 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 20:35:29,253 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 20:35:29,253 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 20:35:29,253 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 20:35:29,253 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 20:35:29,253 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 20:35:29,253 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 20:35:29,381 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-14 20:35:29,381 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 20:42:23,729 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 20:42:23,729 [INFO] Inicializando la pipeline ViT...
+2025-06-14 20:42:23,730 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 20:42:23,730 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 20:42:23,730 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_20.42.23
+2025-06-14 20:42:23,924 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 20:42:23,925 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 20:42:27,223 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 20:42:27,224 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 20:42:27,768 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 20:42:27,910 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transformacion. Ruta: ./output/2025-06-14_20.42.27_pre-transformacion_train_sample_91.png
+2025-06-14 20:42:27,910 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 20:42:27,910 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 20:42:27,910 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 20:42:27,911 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 20:42:27,911 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 20:42:27,911 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 20:42:27,911 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 20:42:27,911 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 20:42:27,911 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 20:42:27,948 [ERROR] [TRANSFORM DATASET] Error: 'NoneType' object is not callable
+2025-06-14 20:42:27,948 [ERROR] [PREPROCESS DATA] Error: 'NoneType' object is not callable
+2025-06-14 20:42:27,949 [ERROR] [PREPROCESAR DATASET] Error: 'NoneType' object is not callable
+2025-06-14 20:42:27,949 [ERROR] [MAIN] Error en el Pipeline: 'NoneType' object is not callable
+2025-06-14 20:47:35,907 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 20:47:35,907 [INFO] Inicializando la pipeline ViT...
+2025-06-14 20:47:35,908 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 20:47:35,908 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 20:47:35,908 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_20.47.35
+2025-06-14 20:47:36,093 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 20:47:36,093 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 20:47:39,265 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 20:47:39,266 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 20:47:39,804 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 20:47:39,952 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_20.47.39_pre-transform_train_sample_20.png
+2025-06-14 20:47:39,952 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 20:47:39,952 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 20:47:39,952 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 20:47:39,953 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 20:47:39,953 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 20:47:39,953 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 20:47:39,953 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 20:47:39,953 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 20:47:39,953 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 20:48:38,245 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 20:48:38,408 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_20.48.38_post-transform_train_sample_93.png
+2025-06-14 20:48:38,409 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-14 20:48:38,409 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 20:55:59,608 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 20:55:59,608 [INFO] Inicializando la pipeline ViT...
+2025-06-14 20:55:59,609 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 20:55:59,610 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 20:55:59,610 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_20.55.59
+2025-06-14 20:55:59,798 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 20:55:59,798 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 20:56:03,215 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 20:56:03,215 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 20:56:03,758 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 20:56:03,933 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_20.56.03_pre-transform_train_sample_231.png
+2025-06-14 20:56:04,066 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_20.56.03_pre-transform_train_sample_185.png
+2025-06-14 20:56:04,151 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_20.56.04_pre-transform_train_sample_239.png
+2025-06-14 20:56:04,152 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 20:56:04,152 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 20:56:04,152 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 20:56:04,152 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 20:56:04,152 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 20:56:04,152 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 20:56:04,152 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 20:56:04,152 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 20:56:04,152 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 20:57:01,542 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 20:57:01,856 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_20.57.01_post-transform_train_sample_137.png
+2025-06-14 20:57:02,099 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_20.57.01_post-transform_train_sample_198.png
+2025-06-14 20:57:02,346 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_20.57.02_post-transform_train_sample_83.png
+2025-06-14 20:57:02,348 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-14 20:57:02,348 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 21:00:28,864 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 21:00:28,865 [INFO] Inicializando la pipeline ViT...
+2025-06-14 21:00:28,866 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 21:00:28,866 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 21:00:28,866 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_21.00.28
+2025-06-14 21:00:29,062 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 21:00:29,063 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 21:00:32,442 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 21:00:32,442 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 21:00:32,996 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 21:00:33,116 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_21.00.32_pre-transform_train_sample_205.png
+2025-06-14 21:00:33,199 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_21.00.33_pre-transform_train_sample_179.png
+2025-06-14 21:00:33,342 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_21.00.33_pre-transform_train_sample_230.png
+2025-06-14 21:00:33,342 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 21:00:33,342 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 21:00:33,342 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 21:00:33,343 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 21:00:33,343 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 21:00:33,343 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 21:00:33,343 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 21:00:33,343 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 21:00:33,343 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 21:01:31,146 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 21:01:31,416 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_21.01.31_post-transform_train_sample_262.png
+2025-06-14 21:01:31,629 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_21.01.31_post-transform_train_sample_16.png
+2025-06-14 21:01:31,857 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_21.01.31_post-transform_train_sample_149.png
+2025-06-14 21:01:31,859 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-14 21:01:31,859 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 21:04:51,414 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 21:04:51,414 [INFO] Inicializando la pipeline ViT...
+2025-06-14 21:04:51,415 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 21:04:51,415 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 21:04:51,415 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_21.04.51
+2025-06-14 21:04:51,608 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 21:04:51,608 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 21:04:55,304 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 21:04:55,305 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 21:04:55,831 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 21:04:55,943 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_21.04.55_pre-transform_train_sample_61.png
+2025-06-14 21:04:56,066 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_21.04.55_pre-transform_train_sample_94.png
+2025-06-14 21:04:56,208 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_21.04.56_pre-transform_train_sample_123.png
+2025-06-14 21:04:56,208 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 21:04:56,208 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 21:04:56,208 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 21:04:56,209 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 21:04:56,209 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 21:04:56,209 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 21:04:56,209 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 21:04:56,209 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 21:04:56,209 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 21:04:56,209 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 21:05:47,444 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 21:05:47,626 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_21.05.47_post-transform_train_sample_87.png
+2025-06-14 21:05:47,791 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_21.05.47_post-transform_train_sample_72.png
+2025-06-14 21:05:48,025 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_21.05.47_post-transform_train_sample_184.png
+2025-06-14 21:05:48,026 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-14 21:05:48,026 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 21:15:11,175 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 21:15:11,175 [INFO] Inicializando la pipeline ViT...
+2025-06-14 21:15:11,177 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 21:15:11,177 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 21:15:11,177 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_21.15.11
+2025-06-14 21:15:11,367 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 21:15:11,368 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 21:15:15,378 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 21:15:15,378 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 21:15:15,945 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 21:15:16,109 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_21.15.15_pre-transform_train_sample_185.png
+2025-06-14 21:15:16,241 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_21.15.16_pre-transform_train_sample_225.png
+2025-06-14 21:15:16,380 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_21.15.16_pre-transform_train_sample_230.png
+2025-06-14 21:15:16,380 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 21:15:16,380 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 21:15:16,380 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 21:15:16,381 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 21:15:16,381 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 21:15:16,381 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 21:15:16,381 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 21:15:16,381 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 21:15:16,381 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 21:15:16,381 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 21:15:16,407 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 21:15:16,619 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_21.15.16_post-transform_train_sample_249.png
+2025-06-14 21:15:16,808 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_21.15.16_post-transform_train_sample_236.png
+2025-06-14 21:15:17,049 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_21.15.16_post-transform_train_sample_115.png
+2025-06-14 21:15:17,050 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-14 21:15:17,050 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 21:16:42,144 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 21:16:42,144 [INFO] Inicializando la pipeline ViT...
+2025-06-14 21:16:42,145 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 21:16:42,146 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 21:16:42,146 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_21.16.42
+2025-06-14 21:16:42,365 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 21:16:42,366 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 21:16:45,660 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 21:16:45,660 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 21:16:46,212 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 21:16:46,377 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_21.16.46_pre-transform_train_sample_88.png
+2025-06-14 21:16:46,466 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_21.16.46_pre-transform_train_sample_109.png
+2025-06-14 21:16:46,555 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_21.16.46_pre-transform_train_sample_219.png
+2025-06-14 21:16:46,555 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 21:16:46,555 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 21:16:46,555 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 21:16:46,555 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 21:16:46,555 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 21:16:46,555 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 21:16:46,555 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 21:16:46,555 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 21:16:46,555 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 21:16:46,556 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 21:16:46,556 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 21:16:46,581 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 21:16:46,725 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_21.16.46_post-transform_train_sample_219.png
+2025-06-14 21:16:46,917 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_21.16.46_post-transform_train_sample_189.png
+2025-06-14 21:16:47,130 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: post-transform. Ruta: ./output/2025-06-14_21.16.46_post-transform_train_sample_61.png
+2025-06-14 21:16:47,131 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-14 21:16:47,131 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-14 22:12:01,114 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 22:12:01,114 [INFO] Inicializando la pipeline ViT...
+2025-06-14 22:12:01,115 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 22:12:01,115 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 22:12:01,115 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_22.12.01
+2025-06-14 22:12:01,303 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 22:12:01,303 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 22:12:04,622 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 22:12:04,623 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 22:12:05,159 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 22:12:05,312 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_22.12.05_pre-transform_train_sample_70.png
+2025-06-14 22:12:05,394 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_22.12.05_pre-transform_train_sample_96.png
+2025-06-14 22:12:05,492 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_22.12.05_pre-transform_train_sample_223.png
+2025-06-14 22:12:05,493 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 22:12:05,493 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 22:12:05,493 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 22:12:05,493 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 22:12:05,493 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 22:12:05,493 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 22:12:05,493 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 22:12:05,493 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 22:12:05,493 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 22:12:05,493 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 22:12:05,494 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 22:12:05,520 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 22:12:05,570 [ERROR] [PREPROCESS SAVE TRAIN SAMPLE] Error: 'list' object has no attribute 'permute'
+2025-06-14 22:12:05,570 [ERROR] [PREPROCESAR DATASET] Error: 'list' object has no attribute 'permute'
+2025-06-14 22:12:05,571 [ERROR] [MAIN] Error en el Pipeline: 'list' object has no attribute 'permute'
+2025-06-14 23:25:00,971 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 23:25:00,971 [INFO] Inicializando la pipeline ViT...
+2025-06-14 23:25:00,972 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 23:25:00,972 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 23:25:00,972 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_23.25.00
+2025-06-14 23:25:01,160 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 23:25:01,161 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 23:25:04,670 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 23:25:04,670 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 23:25:05,209 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 23:25:05,338 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_23.25.05_pre-transform_train_sample_248.png
+2025-06-14 23:25:05,465 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_23.25.05_pre-transform_train_sample_227.png
+2025-06-14 23:25:05,605 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform. Ruta: ./output/2025-06-14_23.25.05_pre-transform_train_sample_267.png
+2025-06-14 23:25:05,606 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 23:25:05,606 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 23:25:05,606 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 23:25:05,606 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:25:05,606 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:25:05,606 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:25:05,606 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 23:25:05,606 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 23:25:05,606 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 23:25:05,606 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:25:05,606 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:25:05,633 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 23:25:05,683 [ERROR] [PREPROCESS SAVE TRAIN SAMPLE] Error: 'list' object has no attribute 'permute'
+2025-06-14 23:25:05,683 [ERROR] [PREPROCESAR DATASET] Error: 'list' object has no attribute 'permute'
+2025-06-14 23:25:05,683 [ERROR] [MAIN] Error en el Pipeline: 'list' object has no attribute 'permute'
+2025-06-14 23:29:02,668 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 23:29:02,668 [INFO] Inicializando la pipeline ViT...
+2025-06-14 23:29:02,669 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 23:29:02,669 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 23:29:02,669 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_23.29.02
+2025-06-14 23:29:02,854 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 23:29:02,854 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 23:29:06,032 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 23:29:06,032 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 23:29:06,533 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 23:29:06,533 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-14 23:29:06,906 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-14_23.29.06_pre-transform_train_sample_95.png
+2025-06-14 23:29:06,906 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 23:29:06,906 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 23:29:06,906 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 23:29:06,907 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:29:06,907 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:29:06,907 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:29:06,907 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 23:29:06,907 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 23:29:06,907 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 23:29:06,907 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:29:06,907 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:29:06,934 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 23:29:06,934 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pos-transform.
+2025-06-14 23:29:06,985 [ERROR] [PREPROCESS SAVE TRAIN SAMPLE] [pos-transform] Error: 'list' object has no attribute 'permute'
+2025-06-14 23:29:06,986 [ERROR] [PREPROCESAR DATASET] Error: 'list' object has no attribute 'permute'
+2025-06-14 23:29:06,986 [ERROR] [MAIN] Error en el Pipeline: 'list' object has no attribute 'permute'
+2025-06-14 23:43:58,649 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 23:43:58,650 [INFO] Inicializando la pipeline ViT...
+2025-06-14 23:43:58,651 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 23:43:58,651 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 23:43:58,651 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_23.43.58
+2025-06-14 23:43:58,835 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 23:43:58,835 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 23:44:02,203 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 23:44:02,203 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 23:44:02,737 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 23:44:02,738 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-14 23:44:03,172 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-14_23.44.03_pre-transform_train_sample_204.png
+2025-06-14 23:44:03,172 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 23:44:03,172 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 23:44:03,172 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 23:44:03,173 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:44:03,173 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:44:03,173 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:44:03,173 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 23:44:03,173 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 23:44:03,173 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 23:44:03,173 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:44:03,173 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:44:03,199 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 23:44:03,199 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pos-transform.
+2025-06-14 23:44:03,248 [ERROR] [PREPROCESS SAVE TRAIN SAMPLE] [pos-transform] Error: 'list' object has no attribute 'ndim'
+2025-06-14 23:44:03,249 [ERROR] [PREPROCESAR DATASET] Error: 'list' object has no attribute 'ndim'
+2025-06-14 23:44:03,249 [ERROR] [MAIN] Error en el Pipeline: 'list' object has no attribute 'ndim'
+2025-06-14 23:54:59,710 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 23:54:59,710 [INFO] Inicializando la pipeline ViT...
+2025-06-14 23:54:59,711 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 23:54:59,712 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 23:54:59,712 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_23.54.59
+2025-06-14 23:55:00,183 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 23:55:00,183 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 23:55:03,274 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 23:55:03,274 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 23:55:03,786 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 23:55:03,786 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-14 23:55:04,148 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-14_23.55.04_pre-transform_train_sample_28.png
+2025-06-14 23:55:04,148 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 23:55:04,148 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 23:55:04,149 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 23:55:04,149 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:55:04,149 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:55:04,149 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:55:04,149 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 23:55:04,149 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 23:55:04,149 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 23:55:04,150 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:55:04,150 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:55:04,176 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 23:55:04,177 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pos-transform.
+2025-06-14 23:55:04,230 [ERROR] [PREPROCESS SAVE TRAIN SAMPLE] [pos-transform] Error: 0
+2025-06-14 23:55:04,230 [ERROR] [PREPROCESAR DATASET] Error: 0
+2025-06-14 23:55:04,230 [ERROR] [MAIN] Error en el Pipeline: 0
+2025-06-14 23:55:48,656 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 23:55:48,656 [INFO] Inicializando la pipeline ViT...
+2025-06-14 23:55:48,658 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 23:55:48,658 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 23:55:48,658 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_23.55.48
+2025-06-14 23:55:48,835 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 23:55:48,835 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 23:55:52,320 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 23:55:52,320 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 23:55:52,851 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 23:55:52,852 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-14 23:55:53,272 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-14_23.55.53_pre-transform_train_sample_70.png
+2025-06-14 23:55:53,272 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 23:55:53,272 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 23:55:53,272 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 23:55:53,273 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:55:53,273 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:55:53,273 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:55:53,273 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 23:55:53,273 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 23:55:53,273 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 23:55:53,273 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:55:53,273 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:55:53,301 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 23:55:53,301 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pos-transform.
+2025-06-14 23:55:53,349 [ERROR] [PREPROCESS SAVE TRAIN SAMPLE] [pos-transform] Error: unsupported operand type(s) for *: 'dict' and 'float'
+2025-06-14 23:55:53,349 [ERROR] [PREPROCESAR DATASET] Error: unsupported operand type(s) for *: 'dict' and 'float'
+2025-06-14 23:55:53,349 [ERROR] [MAIN] Error en el Pipeline: unsupported operand type(s) for *: 'dict' and 'float'
+2025-06-14 23:56:18,347 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 23:56:18,347 [INFO] Inicializando la pipeline ViT...
+2025-06-14 23:56:18,348 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 23:56:18,348 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 23:56:18,348 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_23.56.18
+2025-06-14 23:56:18,526 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 23:56:18,526 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 23:56:22,029 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 23:56:22,030 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 23:56:22,567 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 23:56:22,567 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-14 23:56:22,941 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-14_23.56.22_pre-transform_train_sample_159.png
+2025-06-14 23:56:22,942 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 23:56:22,942 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 23:56:22,942 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 23:56:22,942 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:56:22,942 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:56:22,942 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:56:22,942 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 23:56:22,942 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 23:56:22,942 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 23:56:22,942 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:56:22,942 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:56:22,969 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 23:56:22,969 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pos-transform.
+2025-06-14 23:56:23,022 [ERROR] [PREPROCESS SAVE TRAIN SAMPLE] [pos-transform] Error: pic should be Tensor or ndarray. Got <class 'dict'>.
+2025-06-14 23:56:23,022 [ERROR] [PREPROCESAR DATASET] Error: pic should be Tensor or ndarray. Got <class 'dict'>.
+2025-06-14 23:56:23,022 [ERROR] [MAIN] Error en el Pipeline: pic should be Tensor or ndarray. Got <class 'dict'>.
+2025-06-14 23:58:21,193 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 23:58:21,194 [INFO] Inicializando la pipeline ViT...
+2025-06-14 23:58:21,195 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 23:58:21,195 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 23:58:21,195 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_23.58.21
+2025-06-14 23:58:21,381 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 23:58:21,382 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 23:58:24,816 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 23:58:24,817 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 23:58:25,348 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 23:58:25,349 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-14 23:58:25,787 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-14_23.58.25_pre-transform_train_sample_270.png
+2025-06-14 23:58:25,787 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 23:58:25,787 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 23:58:25,787 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 23:58:25,788 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:58:25,788 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:58:25,788 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:58:25,788 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 23:58:25,788 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 23:58:25,788 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 23:58:25,788 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:58:25,788 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:58:25,816 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 23:58:25,816 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pos-transform.
+2025-06-14 23:58:25,866 [ERROR] [PREPROCESS SAVE TRAIN SAMPLE] [pos-transform] Error: 'list' object has no attribute 'squeeze'
+2025-06-14 23:58:25,866 [ERROR] [PREPROCESAR DATASET] Error: 'list' object has no attribute 'squeeze'
+2025-06-14 23:58:25,867 [ERROR] [MAIN] Error en el Pipeline: 'list' object has no attribute 'squeeze'
+2025-06-14 23:58:57,007 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-14 23:58:57,007 [INFO] Inicializando la pipeline ViT...
+2025-06-14 23:58:57,008 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-14 23:58:57,008 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-14 23:58:57,008 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-14_23.58.57
+2025-06-14 23:58:57,189 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-14 23:58:57,190 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-14 23:59:00,451 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-14 23:59:00,451 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-14 23:59:00,995 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-14 23:59:00,995 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-14 23:59:01,427 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-14_23.59.01_pre-transform_train_sample_152.png
+2025-06-14 23:59:01,427 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-14 23:59:01,427 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-14 23:59:01,427 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-14 23:59:01,428 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:59:01,428 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:59:01,428 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-14 23:59:01,428 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-14 23:59:01,428 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-14 23:59:01,428 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-14 23:59:01,428 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:59:01,428 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-14 23:59:01,462 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-14 23:59:01,462 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pos-transform.
+2025-06-14 23:59:01,516 [ERROR] [PREPROCESS SAVE TRAIN SAMPLE] [pos-transform] Error: pic should be Tensor or ndarray. Got <class 'list'>.
+2025-06-14 23:59:01,516 [ERROR] [PREPROCESAR DATASET] Error: pic should be Tensor or ndarray. Got <class 'list'>.
+2025-06-14 23:59:01,516 [ERROR] [MAIN] Error en el Pipeline: pic should be Tensor or ndarray. Got <class 'list'>.
+2025-06-15 00:00:16,126 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-15 00:00:16,126 [INFO] Inicializando la pipeline ViT...
+2025-06-15 00:00:16,127 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-15 00:00:16,127 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-15 00:00:16,127 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-15_00.00.16
+2025-06-15 00:00:16,309 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-15 00:00:16,309 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-15 00:00:20,530 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-15 00:00:20,530 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-15 00:00:21,329 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-15 00:00:21,329 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-15 00:00:21,696 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-15_00.00.21_pre-transform_train_sample_292.png
+2025-06-15 00:00:21,696 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-15 00:00:21,696 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-15 00:00:21,696 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-15 00:00:21,697 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-15 00:00:21,697 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-15 00:00:21,697 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-15 00:00:21,697 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-15 00:00:21,697 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-15 00:00:21,697 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-15 00:00:21,697 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-15 00:00:21,697 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomGrayscale(p=1)
+)
+2025-06-15 00:00:21,723 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-15 00:00:21,723 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-15 00:00:21,723 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-15 00:01:07,451 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-15 00:01:07,451 [INFO] Inicializando la pipeline ViT...
+2025-06-15 00:01:07,452 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-15 00:01:07,452 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-15 00:01:07,452 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-15_00.01.07
+2025-06-15 00:01:07,627 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-15 00:01:07,627 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-15 00:01:11,306 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-15 00:01:11,307 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-15 00:01:11,931 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-15 00:01:11,932 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-15 00:01:12,275 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-15_00.01.12_pre-transform_train_sample_287.png
+2025-06-15 00:01:12,275 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-15 00:01:12,275 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-15 00:01:12,275 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-15 00:01:12,276 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-15 00:01:12,276 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-15 00:01:12,276 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-15 00:01:12,276 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-15 00:01:12,276 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-15 00:01:12,276 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-15 00:01:12,276 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-15 00:01:12,276 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-15 00:01:12,307 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-15 00:01:12,307 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-15 00:01:12,307 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-16 16:59:44,436 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 16:59:44,436 [INFO] Inicializando la pipeline ViT...
+2025-06-16 16:59:44,437 [ERROR] [CONFIGURACION] Error al cargar configuración: 'Model_Pipeline' object has no attribute 'config'
+2025-06-16 17:02:50,790 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 17:02:50,790 [INFO] Inicializando la pipeline ViT...
+2025-06-16 17:02:50,792 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 17:03:16,317 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 17:03:16,317 [INFO] Inicializando la pipeline ViT...
+2025-06-16 17:03:16,318 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 17:03:16,318 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-16 17:03:16,318 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-16_17.03.16
+2025-06-16 17:03:17,004 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-16 17:03:17,004 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-16 17:03:23,689 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-16 17:03:23,689 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-16 17:03:24,532 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-16 17:03:24,532 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-16 17:03:24,905 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-16_17.03.24_pre-transform_train_sample_297.png
+2025-06-16 17:03:24,905 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-16 17:03:24,905 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-16 17:03:24,905 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-16 17:03:24,906 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:03:24,906 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:03:24,906 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:03:24,906 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-16 17:03:24,906 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-16 17:03:24,906 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-16 17:03:24,907 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:03:24,907 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:04:22,619 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-16 17:04:22,619 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-16 17:04:22,619 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-16 17:07:21,205 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 17:07:21,206 [INFO] Inicializando la pipeline ViT...
+2025-06-16 17:07:21,207 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 17:07:21,207 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-16 17:07:21,207 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-16_17.07.21
+2025-06-16 17:07:21,565 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-16 17:07:21,565 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-16 17:07:27,642 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-16 17:07:27,642 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-16 17:07:28,662 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-16 17:07:28,662 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-16 17:07:29,038 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-16_17.07.28_pre-transform_train_sample_240.png
+2025-06-16 17:07:29,038 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-16 17:07:29,038 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-16 17:07:29,038 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-16 17:07:29,038 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:07:29,038 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:07:29,038 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:07:29,038 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-16 17:07:29,039 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-16 17:07:29,039 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-16 17:07:29,039 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:07:29,039 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:07:29,070 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-16 17:07:29,070 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-16 17:07:29,071 [ERROR] [MAIN] Error en el Pipeline: __exit__
+2025-06-16 17:13:09,632 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 17:13:09,632 [INFO] Inicializando la pipeline ViT...
+2025-06-16 17:13:09,633 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 17:13:09,634 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-16 17:13:09,634 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-16_17.13.09
+2025-06-16 17:13:10,723 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-16 17:13:10,723 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-16 17:13:16,870 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-16 17:13:16,870 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-16 17:13:18,496 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-16 17:13:18,496 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-16 17:13:18,831 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-16_17.13.18_pre-transform_train_sample_283.png
+2025-06-16 17:13:18,831 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-16 17:13:18,831 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-16 17:13:18,831 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-16 17:13:18,831 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:13:18,832 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:13:18,832 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:13:18,832 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-16 17:13:18,832 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-16 17:13:18,832 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-16 17:13:18,832 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:13:18,832 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:13:18,863 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-16 17:13:18,863 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-16 17:13:18,863 [ERROR] [MAIN] Error en el Pipeline: __exit__
+2025-06-16 17:14:50,933 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 17:14:50,933 [INFO] Inicializando la pipeline ViT...
+2025-06-16 17:14:50,934 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 17:14:50,934 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-16 17:14:50,934 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-16_17.14.50
+2025-06-16 17:14:51,325 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-16 17:14:51,325 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-16 17:14:57,398 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-16 17:14:57,398 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-16 17:14:58,409 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-16 17:14:58,409 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-16 17:14:58,721 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-16_17.14.58_pre-transform_train_sample_78.png
+2025-06-16 17:14:58,721 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-16 17:14:58,721 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-16 17:14:58,721 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-16 17:14:58,722 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:14:58,722 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:14:58,722 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:14:58,722 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-16 17:14:58,722 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-16 17:14:58,722 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-16 17:14:58,723 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:14:58,723 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:14:58,754 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-16 17:14:58,754 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-16 17:14:58,755 [ERROR] [MAIN] Error en el Pipeline: __exit__
+2025-06-16 17:17:12,686 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 17:17:12,686 [INFO] Inicializando la pipeline ViT...
+2025-06-16 17:17:12,687 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 17:17:12,687 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-16 17:17:12,687 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-16_17.17.12
+2025-06-16 17:17:13,103 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-16 17:17:13,104 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-16 17:17:19,769 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-16 17:17:19,769 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-16 17:17:20,975 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-16 17:17:20,976 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-16 17:17:21,333 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-16_17.17.21_pre-transform_train_sample_233.png
+2025-06-16 17:17:21,333 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-16 17:17:21,333 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-16 17:17:21,333 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-16 17:17:21,333 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:17:21,334 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:17:21,334 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:17:21,334 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-16 17:17:21,334 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-16 17:17:21,334 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-16 17:17:21,334 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:17:21,334 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:17:21,364 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-16 17:17:21,364 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-16 17:17:21,365 [ERROR] [MAIN] Error en el Pipeline: __exit__
+2025-06-16 17:21:51,545 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 17:21:51,545 [INFO] Inicializando la pipeline ViT...
+2025-06-16 17:21:51,546 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 17:21:51,546 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-16 17:21:51,547 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-16_17.21.51
+2025-06-16 17:21:52,178 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-16 17:21:52,179 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-16 17:21:59,888 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-16 17:21:59,889 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-16 17:22:00,944 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-16 17:22:00,945 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-16 17:22:01,327 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-16_17.22.01_pre-transform_train_sample_227.png
+2025-06-16 17:22:01,327 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-16 17:22:01,327 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-16 17:22:01,327 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-16 17:22:01,328 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:22:01,328 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:22:01,328 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:22:01,328 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-16 17:22:01,328 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-16 17:22:01,328 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-16 17:22:01,328 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:22:01,328 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:22:01,359 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-16 17:22:01,360 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-16 17:22:01,360 [INFO] [MODEL] Valores - model_name = None , num_labels = 37 .
+2025-06-16 17:22:01,629 [ERROR] [MODEL] Error: None is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-06-16 17:22:01,629 [ERROR] [MAIN] Error en el Pipeline: None is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-06-16 17:28:10,342 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 17:28:10,342 [INFO] Inicializando la pipeline ViT...
+2025-06-16 17:28:10,343 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 17:28:10,343 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-16 17:28:10,343 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-16_17.28.10
+2025-06-16 17:28:10,698 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-16 17:28:10,698 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-16 17:28:17,664 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-16 17:28:17,664 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-16 17:28:19,113 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-16 17:28:19,113 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-16 17:28:19,524 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-16_17.28.19_pre-transform_train_sample_210.png
+2025-06-16 17:28:19,524 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-16 17:28:19,524 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-16 17:28:19,524 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-16 17:28:19,525 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:28:19,525 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:28:19,525 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:28:19,525 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-16 17:28:19,525 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-16 17:28:19,525 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-16 17:28:19,526 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:28:19,526 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:28:19,556 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-16 17:28:19,557 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-16 17:28:19,557 [INFO] [MODEL] Valores - model_name = google/vit-base-patch16-224-in21k , num_labels = 37 .
+2025-06-16 17:30:36,272 [INFO] [MODEL] Modelo google/vit-base-patch16-224-in21k creado con 37
+2025-06-16 17:30:36,272 [INFO] [PREPARE_MODEL] Finalizó prepare_model.
+2025-06-16 17:30:36,273 [ERROR] [MAIN] Error en el Pipeline: __exit__
+2025-06-16 17:31:34,726 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 17:31:34,726 [INFO] Inicializando la pipeline ViT...
+2025-06-16 17:31:34,727 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 17:31:34,727 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-16 17:31:34,727 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-16_17.31.34
+2025-06-16 17:31:35,050 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-16 17:31:35,050 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-16 17:31:41,449 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-16 17:31:41,449 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-16 17:31:42,142 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-16 17:31:42,143 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-16 17:31:42,519 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-16_17.31.42_pre-transform_train_sample_13.png
+2025-06-16 17:31:42,519 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-16 17:31:42,519 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-16 17:31:42,519 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-16 17:31:42,520 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:31:42,520 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:31:42,520 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:31:42,520 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-16 17:31:42,520 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-16 17:31:42,520 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-16 17:31:42,521 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:31:42,521 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:31:42,552 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-16 17:31:42,552 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-16 17:31:42,552 [INFO] [MODEL] Valores - model_name = google/vit-base-patch16-224-in21k , num_labels = 37 .
+2025-06-16 17:31:43,328 [INFO] [MODEL] Modelo google/vit-base-patch16-224-in21k creado con 37
+2025-06-16 17:31:43,329 [INFO] [PREPARE_MODEL] Finalizó prepare_model.
+2025-06-16 17:31:43,329 [ERROR] [TRAIN] [TRAIN] Error: Using the `Trainer` with `PyTorch` requires `accelerate>=0.26.0`: Please run `pip install transformers[torch]` or `pip install 'accelerate>={ACCELERATE_MIN_VERSION}'`
+2025-06-16 17:31:43,329 [ERROR] [MAIN] Error en el Pipeline: Using the `Trainer` with `PyTorch` requires `accelerate>=0.26.0`: Please run `pip install transformers[torch]` or `pip install 'accelerate>={ACCELERATE_MIN_VERSION}'`
+2025-06-16 17:42:05,037 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 17:42:05,037 [INFO] Inicializando la pipeline ViT...
+2025-06-16 17:42:05,038 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 17:42:05,038 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-16 17:42:05,038 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-16_17.42.05
+2025-06-16 17:42:05,411 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-16 17:42:05,411 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-16 17:42:11,722 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-16 17:42:11,722 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-16 17:42:12,445 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-16 17:42:12,446 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-16 17:42:12,829 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-16_17.42.12_pre-transform_train_sample_12.png
+2025-06-16 17:42:12,829 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-16 17:42:12,829 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-16 17:42:12,829 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-16 17:42:12,830 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:42:12,830 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:42:12,830 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:42:12,830 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-16 17:42:12,830 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-16 17:42:12,830 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-16 17:42:12,830 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:42:12,831 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:42:12,861 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-16 17:42:12,861 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-16 17:42:12,862 [INFO] [MODEL] Valores - model_name = google/vit-base-patch16-224-in21k , num_labels = 37 .
+2025-06-16 17:42:13,795 [INFO] [MODEL] Modelo google/vit-base-patch16-224-in21k creado con 37
+2025-06-16 17:42:13,796 [INFO] [PREPARE_MODEL] Finalizó prepare_model.
+2025-06-16 17:42:13,799 [ERROR] [TRAIN] [TRAIN] Error: __init__() got an unexpected keyword argument 'args'
+2025-06-16 17:42:13,799 [ERROR] [MAIN] Error en el Pipeline: __init__() got an unexpected keyword argument 'args'
+2025-06-16 17:56:25,196 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 17:56:25,196 [INFO] Inicializando la pipeline ViT...
+2025-06-16 17:56:25,197 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 17:56:25,197 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-16 17:56:25,197 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-16_17.56.25
+2025-06-16 17:56:25,589 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-16 17:56:25,589 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-16 17:56:32,007 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-16 17:56:32,007 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-16 17:56:32,725 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-16 17:56:32,725 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-16 17:56:33,157 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-16_17.56.33_pre-transform_train_sample_163.png
+2025-06-16 17:56:33,157 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-16 17:56:33,157 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-16 17:56:33,157 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-16 17:56:33,158 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:56:33,158 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:56:33,158 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 17:56:33,158 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-16 17:56:33,158 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-16 17:56:33,158 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-16 17:56:33,159 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:56:33,159 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 17:56:33,190 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-16 17:56:33,190 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-16 17:56:33,190 [INFO] [MODEL] Valores - model_name = google/vit-base-patch16-224-in21k , num_labels = 37 .
+2025-06-16 17:56:34,123 [INFO] [MODEL] Modelo google/vit-base-patch16-224-in21k creado con 37
+2025-06-16 17:56:34,123 [INFO] [PREPARE_MODEL] Finalizó prepare_model.
+2025-06-16 18:10:39,362 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-16 18:26:09,416 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-16 18:39:46,065 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-16 18:53:15,854 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-16 19:06:54,615 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-16 19:06:58,229 [INFO] [TRAIN] Entrenamiento completo.
+2025-06-16 19:06:58,229 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-16 22:27:48,392 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 22:27:48,392 [INFO] Inicializando la pipeline ViT...
+2025-06-16 22:27:48,394 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 22:27:48,394 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-16 22:27:48,394 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-16_22.27.48
+2025-06-16 22:27:48,396 [ERROR] [AUTENTICACION] Hugging Face. Error de autenticación: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/whoami-v2 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6ce44264f0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: b8e44fdd-deca-409d-a61a-31834cd7fc6a)')
+2025-06-16 22:27:48,396 [ERROR] [MAIN] Error en el Pipeline: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/whoami-v2 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6ce44264f0>: Failed to resolve \'huggingface.co\' ([Errno -3] Temporary failure in name resolution)"))'), '(Request ID: b8e44fdd-deca-409d-a61a-31834cd7fc6a)')
+2025-06-16 22:29:29,380 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 22:29:29,380 [INFO] Inicializando la pipeline ViT...
+2025-06-16 22:29:29,381 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 22:29:29,381 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-16 22:29:29,382 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-16_22.29.29
+2025-06-16 22:29:30,002 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-16 22:29:30,002 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-16 22:29:35,111 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-16 22:29:35,111 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-16 22:29:35,974 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-16 22:29:35,974 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-16 22:29:36,450 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-16_22.29.36_pre-transform_train_sample_280.png
+2025-06-16 22:29:36,450 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-16 22:29:36,450 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-16 22:29:36,450 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-16 22:29:36,450 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 22:29:36,451 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 22:29:36,451 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 22:29:36,451 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-16 22:29:36,451 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-16 22:29:36,451 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-16 22:29:36,451 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 22:29:36,451 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 22:29:36,483 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-16 22:29:36,484 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-16 22:29:36,484 [INFO] [MODEL] Valores - model_name = google/vit-base-patch16-224-in21k , num_labels = 37 .
+2025-06-16 22:29:37,273 [INFO] [MODEL] Modelo google/vit-base-patch16-224-in21k creado con 37
+2025-06-16 22:29:37,273 [INFO] [PREPARE_MODEL] Finalizó prepare_model.
+2025-06-16 22:29:37,273 [ERROR] [MAIN] Error en el Pipeline: __init__() missing 1 required positional argument: 'config'
+2025-06-16 22:30:25,178 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 22:30:25,178 [INFO] Inicializando la pipeline ViT...
+2025-06-16 22:30:25,180 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 22:30:25,180 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-16 22:30:25,180 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-16_22.30.25
+2025-06-16 22:30:25,551 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-16 22:30:25,551 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-16 22:30:30,173 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-16 22:30:30,173 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-16 22:30:30,802 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-16 22:30:30,802 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-16 22:30:31,162 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-16_22.30.31_pre-transform_train_sample_185.png
+2025-06-16 22:30:31,162 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-16 22:30:31,162 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-16 22:30:31,162 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-16 22:30:31,162 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 22:30:31,163 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 22:30:31,163 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 22:30:31,163 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-16 22:30:31,163 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-16 22:30:31,163 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-16 22:30:31,163 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 22:30:31,163 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 22:30:31,196 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-16 22:30:31,196 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-16 22:30:31,196 [INFO] [MODEL] Valores - model_name = google/vit-base-patch16-224-in21k , num_labels = 37 .
+2025-06-16 22:30:31,972 [INFO] [MODEL] Modelo google/vit-base-patch16-224-in21k creado con 37
+2025-06-16 22:30:31,972 [INFO] [PREPARE_MODEL] Finalizó prepare_model.
+2025-06-16 22:44:47,668 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-16 22:44:51,083 [INFO] [TRAIN] Entrenamiento completo.
+2025-06-16 22:44:51,083 [INFO] [MAIN] El Pipeline finalizó.
+2025-06-16 23:16:04,425 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-16 23:16:04,425 [INFO] Inicializando la pipeline ViT...
+2025-06-16 23:16:04,426 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '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', 'output_path': './output', 'samples_to_save': 3, 'dataset_name': 'timm/oxford-iiit-pet', 'model_name': 'google/vit-base-patch16-224-in21k', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-16 23:16:04,427 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-16 23:16:04,427 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-16_23.16.04
+2025-06-16 23:16:04,929 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-16 23:16:04,929 [INFO] [CARGA DATASET] Cargando dataset: 'timm/oxford-iiit-pet'
+2025-06-16 23:16:10,119 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3680
+    })
+    test: Dataset({
+        features: ['image', 'label', 'image_id', 'label_cat_dog'],
+        num_rows: 3669
+    })
+})'
+2025-06-16 23:16:10,119 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-16 23:16:11,022 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-16 23:16:11,022 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-16 23:16:11,385 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-16_23.16.11_pre-transform_train_sample_6.png
+2025-06-16 23:16:11,385 [INFO] [PREPROCESS INFORMATION] Train size: 2649
+2025-06-16 23:16:11,385 [INFO] [PREPROCESS INFORMATION] Test size: 736
+2025-06-16 23:16:11,385 [INFO] [PREPROCESS INFORMATION] Validation size: 295
+2025-06-16 23:16:11,386 [INFO] [PREPROCESS INFORMATION] Train labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 23:16:11,386 [INFO] [PREPROCESS INFORMATION] Test labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 23:16:11,386 [INFO] [PREPROCESS INFORMATION] Validation labels: ['abyssinian', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'bengal', 'birman', 'bombay', 'boxer', 'british_shorthair', 'chihuahua', 'egyptian_mau', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'maine_coon', 'miniature_pinscher', 'newfoundland', 'persian', 'pomeranian', 'pug', 'ragdoll', 'russian_blue', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'siamese', 'sphynx', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
+2025-06-16 23:16:11,386 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 37
+2025-06-16 23:16:11,386 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 37
+2025-06-16 23:16:11,386 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 37
+2025-06-16 23:16:11,386 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 23:16:11,387 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-16 23:16:11,418 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-16 23:16:11,418 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-16 23:16:11,418 [INFO] [MODEL] Valores - model_name = google/vit-base-patch16-224-in21k , num_labels = 37 .
+2025-06-16 23:16:12,313 [INFO] [MODEL] Modelo google/vit-base-patch16-224-in21k creado con 37
+2025-06-16 23:16:12,313 [INFO] [PREPARE_MODEL] Finalizó prepare_model.
+2025-06-16 23:16:12,313 [ERROR] [MAIN] Error en el Pipeline: 'NoneType' object has no attribute 'evaluate'

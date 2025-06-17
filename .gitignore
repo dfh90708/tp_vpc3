@@ -1,0 +1,8 @@
+# Ignorar entornos virtuales (vpc3: temporales del entorno virtual, results: el contenido son los checkpoints)
+vpc3/
+results/*
+
+
+# Ignorar archivos temporales y caches
+__pycache__/
+
