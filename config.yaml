@@ -1,5 +1,5 @@
 # Token de autenticacion
-huggingface_token: "xxxxxxxxxxx"
+huggingface_token: "xxxxxxxxxxxxxxxxxxxxxxx"
 
 # Ruta para salvar imagenes ejemplo
 output_path: "./output"
@@ -9,14 +9,15 @@ samples_to_save: 3
 results: "./results"
 
 # Dataset
-#dataset_name: "gymprathap/Breast-Cancer-Ultrasound-Images-Dataset"
-dataset_name: "timm/oxford-iiit-pet"
+dataset_name: "gymprathap/Breast-Cancer-Ultrasound-Images-Dataset"
 
 # Modelo
-model_name: "google/vit-base-patch16-224-in21k"
-#model_name: "facebook/deit-base-patch16-224"
+model_name: "facebook/deit-base-patch16-224"
 
 # Hiperparametros
 batch_size: 16
 num_epochs: 5
 learning_rate: 2e-5
+
+# Mlflow
+tracking_url: http://localhost:5000

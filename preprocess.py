@@ -28,6 +28,7 @@ class Preprocess(object):
         self.data_train = None
         self.data_valid = None
         self.data_test = None
+        self.data_test_original = None
         self.processor = processor
         self.transform = None
         self.num_labels = None
@@ -109,6 +110,7 @@ class Preprocess(object):
             self.data_train = data_train
             self.data_valid = data_valid
             self.data_test = data_test
+            self.data_test_original = data_test
 
             self.logger.info(f"{log_label} Crear dataset de Train, Valid y Test.")
         
@@ -169,6 +171,10 @@ class Preprocess(object):
             self.data_train = self.data_train.map(lambda x: self.transform_dataset(x, self.transform), batched=False)
             self.data_valid = self.data_valid.map(lambda x:self.transform_dataset(x), batched=False)
             self.data_test = self.data_test.map(lambda x: self.transform_dataset(x), batched=False)
+
+            self.data_train.set_format(type='torch', columns=['pixel_values','label'])
+            self.data_valid.set_format(type='torch', columns=['pixel_values','label'])
+            self.data_test.set_format(type='torch', columns=['pixel_values','label'])
 
             self.logger.info(f"{log_label} Pre-procesar datasets, aplicando transformaciones.")
 

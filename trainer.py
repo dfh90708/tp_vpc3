@@ -1,7 +1,8 @@
+import mlflow
 from transformers import TrainingArguments, Trainer
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, confusion_matrix, classification_report
-import torch ##
-from torch.utils.data import DataLoader ##
+import torch 
+from torch.utils.data import DataLoader 
 import matplotlib.pyplot as plt
 from logger_config import get_logger
 import numpy as np
@@ -9,10 +10,10 @@ import tools as tools
 
 class Trainer_Class:
     """
-    Entrenar modelo.
+    Entrenar modelo con integración MLflow..
     """
 
-    def __init__(self, model, processor, data_train, data_valid, data_test, config):
+    def __init__(self, model, processor, data_train, data_valid, data_test, data_test_original, config):
         self.logger = get_logger()
         self.log_label = "[TRAIN]"
         self.trainer = None
@@ -20,17 +21,30 @@ class Trainer_Class:
         self.processor = processor
         self.data_train = data_train
         self.data_valid = data_valid
-        self.data_test = data_test #
+        self.data_test = data_test 
+        self.data_test_original = data_test_original
         self.eval_dataloader = None
-        self.config = config ##
-        self.labels = None ##
+        self.config = config 
+        self.labels = None 
 
 
     def __enter__(self):
-        self.labels = self.data_train.features['label'].names ##
+        self.labels = self.data_train.features['label'].names 
+
+        # Empieza el run MLflow
+        mlflow.set_tracking_uri(uri=self.config['tracking_url'])
+        mlflow.start_run(run_name="training_run")
+        # Loguear parámetros principales
+        mlflow.log_param("num_train_epochs", 5)
+        mlflow.log_param("learning_rate", 2e-5)
+        mlflow.log_param("train_batch_size", 16)
+        mlflow.log_param("eval_batch_size", 16)
+
+
         self.train()
-        self.eval() # 17-Junio - Sólo este no está probado.
+        self.eval()
         self.logger.info(f"{self.log_label} Entrenamiento completo.")
+        mlflow.end_run()
         return self
 
     def compute_metrics(self, eval_pred):
@@ -38,10 +52,14 @@ class Trainer_Class:
         try:
             logits, labels = eval_pred
             preds = np.argmax(logits, axis=1)
+            acc = accuracy_score(labels, preds)
 
             self.logger.info(f"{self.log_label} {log_sublabel} Compute metrics completo.")
-            
-            return {"accuracy": accuracy_score(labels, preds)}
+           
+           # Loguear métricas en MLflow
+            mlflow.log_metric("eval_accuracy", acc)
+
+            return {"accuracy": acc}
             
         except Exception as e:
             self.logger.error(f"{self.log_label} {log_sublabel} Error: {e}")
@@ -51,11 +69,11 @@ class Trainer_Class:
         log_sublabel = "[TRAIN]"
         try:
             training_args = TrainingArguments(
-                output_dir= self.config['results'],  # 17-Junio     "./results",
+                output_dir= self.config['results'],
                 learning_rate=2e-5,
                 per_device_train_batch_size=16,  
                 per_device_eval_batch_size=16, 
-                num_train_epochs=5,                 # 17-Junio se prueba con 1.
+                num_train_epochs=5,
                 eval_strategy="epoch",
                 save_strategy="epoch",
                 logging_dir="./logs",
@@ -72,6 +90,9 @@ class Trainer_Class:
             )
 
             self.trainer.train()
+
+            # Guardar el modelo entrenado con MLflow
+            mlflow.pytorch.log_model(self.model, artifact_path="model")
 
         except Exception as e:
             self.logger.error(f"{self.log_label} {log_sublabel} Error: {e}")
@@ -130,12 +151,11 @@ class Trainer_Class:
         precision = precision_score(all_labels, all_predictions, average='macro')
         recall = recall_score(all_labels, all_predictions, average='macro')
 
-        print(f"Accuracy: {acc:.4f}")
-        print(f"F1 Score (macro): {f1:.4f}")
-        print(f"Precision (macro): {precision:.4f}")
-        print(f"Recall (macro): {recall:.4f}")
-        print("\nClassification Report:")
-        print(classification_report(all_labels, all_predictions, labels=present_class_indices, target_names=present_class_names))
+        # Log métricas de evaluación en MLflow
+        mlflow.log_metric("eval_accuracy_final", acc)
+        mlflow.log_metric("eval_f1_macro", f1)
+        mlflow.log_metric("eval_precision_macro", precision)
+        mlflow.log_metric("eval_recall_macro", recall)
 
         # Mostrar imágenes
         description = 'eval'
@@ -151,7 +171,10 @@ class Trainer_Class:
         plt.suptitle("Predicciones vs. Etiquetas verdaderas (primeras 15 imágenes)", fontsize=16)
         plt.tight_layout()
         plt.savefig(sample_path)
-        #plt.show()
+        plt.close()
+
+        # Guardar la imagen como artefacto en MLflow
+        mlflow.log_artifact(sample_path)
 
 
     def eval(self):
@@ -170,7 +193,7 @@ class Trainer_Class:
                 model=self.model,
                 dataloader=self.eval_dataloader,
                 labels=self.labels,
-                dataset_raw=self.data_test,     ##data_test_original,
+                dataset_raw=self.data_test_original,
                 device='cuda' if torch.cuda.is_available() else 'cpu'
                 )
 

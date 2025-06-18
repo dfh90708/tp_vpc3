@@ -29,7 +29,6 @@ class Model_Pipeline:
         self.logger.info(f"-------------------------------------------------------------------------------------------------")
         self.logger.info("Inicializando la pipeline ViT...")
         self.config = self.load_config(config_path)
-        #self.logger.info(f"Configuración cargada: {self.config}")
 
         # Inicializar atributos
         self.dataset = None
@@ -37,6 +36,7 @@ class Model_Pipeline:
         self.data_train = None
         self.data_valid = None
         self.data_test = None
+        self.data_test_original = None
 
         self.processor = None
         
@@ -57,9 +57,11 @@ class Model_Pipeline:
             with open(config_path, "r") as f:
                 config = yaml.safe_load(f)
 
-                #self.model_name = config["model_name"]
+                config_log = config.copy()
+                if 'huggingface_token' in config_log:
+                    config_log['huggingface_token'] = "***"                
                 
-                self.logger.info(f"{log_label} Configuración del modelo: {config}")
+                self.logger.info(f"{log_label} Configuración del modelo: {config_log}")
             return config
         except Exception as e:
             self.logger.error(f"{log_label} Error al cargar configuración: {e}")
@@ -94,16 +96,11 @@ class Model_Pipeline:
                 self.data_valid = ppr.data_valid
                 self.data_test = ppr.data_test
                 self.num_labels = ppr.num_labels
+                self.data_test_original = ppr.data_test_original
             
 
             self.logger.info(f"{log_label} Finalizó preprocessor.")
-                #ppr.save_random_sample() # guardar un ejemplo random en la carpeta output
-            
-            #self.processor = AutoImageProcessor.from_pretrained(self.config["model_name"])
-            #transform = get_transforms()
 
-            #self.logger.info("Aplicando transformaciones al dataset...")
-            #self.dataset = preprocess_data(self.dataset, transform)
         except Exception as e:
             self.logger.error(f"{log_label} Error: {e}")
             raise
@@ -116,7 +113,7 @@ class Model_Pipeline:
         self.logger.info(f"{log_label} Finalizó prepare_model.")
     
     def train_model(self):
-        with train.Trainer_Class(self.model, self.processor, self.data_train, self.data_valid, self.data_test, self.config) as trn:
+        with train.Trainer_Class(self.model, self.processor, self.data_train, self.data_valid, self.data_test, self.data_test_original, self.config) as trn:
             self.trainer = trn.trainer
 
     def run(self):
@@ -124,10 +121,10 @@ class Model_Pipeline:
         try:
             self.logger.info(f"{log_label} Ejecutando el pipeline...")
             
-            self.testing_components() # [eliminar], es una funcion temporal para testing
+            self.testing_components()
             self.authenticate()
-            self.load_data() # [activar] testing ok
-            self.preprocess_data() # 16-jun 17:00 hasta aqui funciona sin error
+            self.load_data() 
+            self.preprocess_data() 
             
             self.prepare_model()
             self.train_model()

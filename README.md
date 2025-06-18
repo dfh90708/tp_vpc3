@@ -1,42 +1,170 @@
-# Comentarios
-  17-Junio - Se .gitignore para omitir los archivos grandes.
-  17-Junio - Está pendiente probar el eval() en trainer.py.
-  16-Junio - Comentarios
-                - En trainer.py, se modifica epochs a num_train_epochs=1 , solo para que la prueba sea corta. 
-                          Valor original: num_train_epochs=5
+# 🧠 ViT Image Classification Pipeline
 
+Este proyecto implementa un pipeline completo para clasificación de imágenes utilizando modelos Vision Transformer (ViT). Está diseñado para entrenar, evaluar y registrar modelos con trazabilidad y modularidad, incorporando MLflow para experimentación reproducible.
 
-# Metodología de desarrollo.
-  - Se creó un entorno virtual.
-  - Se creó un requirements.txt
-  - Se diseñaron las clases involucradas con sus atributos y métodos.
-  - Se implementaron las clases en componentes .py
-  - Se utilizó "try/exception" para capurar los errores.
-  - Se utilizó "logging" para registrar los mensajes en un único archivo log:
-    - INFO: mensajes informativos para seguimiento de ejecución del pipeline.
-    - ERROR: mensajes de eventos de error.
-  - Se versionó con git.
+---
 
-  - Premisas consideradas:
-    - Respetar los nombre de variables utilizado en el notebook MVP.
-    - Crear clases para separar responsabilidades.
-    - Escribir el mayor detalle posible en el archivo de log. 
+## Estructura del Proyecto
 
+```
+.
+├── config.yaml
+├── logger_config.py
+├── main.py
+├── model.py
+├── preprocess.py
+├── trainer.py
+├── tools.py
+├── requirements.txt
+├── requirements_torch.txt
+├── .gitignore
+├── logs/
+│   └── pipeline.log
+├── mlartifacts/
+├── mlruns/
+├── output/
+│   └── (imagenes ejemplo pre-transform)
+├── results/
+│   └── (checkpoints del modelo)
+└── vpc3/
+    └── (entorno virtual)
+```
 
-# Ayuda
+---
 
-    # Instalar librerías
-    pip install -r ./requirements.txt
+## Metodología de Desarrollo
 
+- Creación de entorno virtual (`vpc3`)
+- Definición de `requirements.txt` y `requirements_torch.txt` para dependencias
+- Modularización del código en clases: `Model`, `Preprocess`, `Trainer`, `Model_Pipeline`
+- Manejo de errores con `try/except`
+- Uso de `logging` para trazabilidad en consola y archivo (`logs/pipeline.log`)
+  - INFO: mensajes informativos para seguimiento de ejecución del pipeline.
+  - ERROR: mensajes de eventos de error.
+- Registro y versionado con `git`
+- Registro de experimentos con MLflow
 
-    # Crear un Entorno Virtual
-    python3 -m venv vpc3      # crear un entorno virtual
-    source vpc3/bin/activate  # activar el entorno virtual
-    deactivate                # desactivar el entorno virtual
+---
 
-    # Especificar carpetas para temporales del PIP. (en caso de fallas por falta de espacio en disco.)
-    PIP_CACHE_DIR=/media/daniel/data/pip_cache TMPDIR=/media/daniel/data/temp pip install torchvision
-    PIP_CACHE_DIR=/media/daniel/data/pip_cache TMPDIR=/media/daniel/data/temp pip install -U accelerate transformers
+## Configuración
 
+El archivo `config.yaml` centraliza todos los parámetros del pipeline:
 
+```yaml
+huggingface_token: "xxxxxxxxxxxxxxxxxxxxxxx"
+output_path: "./output"
+samples_to_save: 3
+results: "./results"
+dataset_name: "gymprathap/Breast-Cancer-Ultrasound-Images-Dataset"
+model_name: "facebook/deit-base-patch16-224"
+batch_size: 16
+num_epochs: 5
+learning_rate: 2e-5
+tracking_url: http://localhost:5000
+```
 
+---
+
+## Ejecución
+
+### 1. Crear entorno virtual
+
+```bash
+python3 -m venv vpc3
+source vpc3/bin/activate       # En Windows (Git Bash): source vpc3/Scripts/activate
+```
+
+### 2. Instalar dependencias
+
+Con GPU:
+
+```bash
+pip install -r requirements.txt
+pip install -r requirements_torch.txt --index-url https://download.pytorch.org/whl/cu124
+```
+
+Sin GPU:
+
+```bash
+pip install -r requirements.txt
+pip install -r requirements_torch.txt
+```
+
+> Tip para espacio limitado:
+
+```bash
+PIP_CACHE_DIR=/media/data/pip_cache TMPDIR=/media/data/temp pip install torchvision
+```
+
+### 3. Iniciar MLflow
+
+Asegurate de tener un servidor MLflow corriendo localmente:
+
+```bash
+mlflow ui
+```
+
+Abrirá una interfaz en: [http://localhost:5000](http://localhost:5000)
+
+Los experimentos se guardan en:
+
+- `mlruns/`: metadatos de ejecuciones
+- `mlartifacts/`: artefactos (modelos, imágenes, etc.)
+
+---
+
+### 4. Ejecutar el pipeline
+
+```bash
+python main.py
+```
+
+---
+
+## Descripción de Componentes
+
+### `main.py`
+
+Orquesta todo el flujo:
+
+- Carga la configuración
+- Autentica en Hugging Face
+- Carga y preprocesa datos
+- Prepara modelo
+- Entrena y evalúa
+
+### `model.py`
+
+Carga el modelo ViT desde `transformers` con el número de clases detectado.
+
+### `preprocess.py`
+
+- Divide el dataset en `train`, `validation`, `test`
+- Aplica transformaciones de data augmentation
+- Convierte imágenes con `AutoImageProcessor`
+- Guarda imágenes ejemplo (pre-transformación) en `output/`
+
+### `trainer.py`
+
+- Entrena con `Trainer` de Hugging Face
+- Evalúa con métricas (`accuracy`, `f1`, `precision`, `recall`)
+- Loguea métricas y artefactos en MLflow
+- Guarda predicciones con imágenes en `output/`
+
+---
+
+## Estado del Proyecto
+
+- Preprocesamiento y entrenamiento funcional
+- Logging detallado implementado
+- Evaluación con visualización de resultados
+- Evaluación (`eval()` en `trainer.py`) pendiente de validación completa
+
+---
+
+## Notas Finales
+
+- Las transformaciones en `preprocess.py` usan `torchvision.transforms` con rotación, zoom, blur, y crop.
+- Se usan `context managers` (`__enter__`, `__exit__`) para asegurar inicialización/limpieza adecuada en clases como `Model`, `Preprocess`, y `Trainer_Class`.
+- Se loguean muestras de imágenes, métricas y modelos con MLflow para trazabilidad completa.
+- Todo el pipeline puede reconfigurarse fácilmente desde `config.yaml`.

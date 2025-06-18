@@ -6,3 +6,7 @@ results/*
 # Ignorar archivos temporales y caches
 __pycache__/
 
+# MLflow
+mlruns/
+mlartifacts/
+

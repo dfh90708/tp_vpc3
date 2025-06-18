@@ -1809,3 +1809,510 @@ If this is a private repository, make sure to pass a token having permission to 
 2025-06-16 23:16:12,313 [INFO] [MODEL] Modelo google/vit-base-patch16-224-in21k creado con 37
 2025-06-16 23:16:12,313 [INFO] [PREPARE_MODEL] FinalizÃ³ prepare_model.
 2025-06-16 23:16:12,313 [ERROR] [MAIN] Error en el Pipeline: 'NoneType' object has no attribute 'evaluate'
+2025-06-18 11:15:53,559 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-18 11:15:53,560 [INFO] Inicializando la pipeline ViT...
+2025-06-18 11:15:53,580 [INFO] [CONFIGURACION] Configuraciï¿½n del modelo: {'huggingface_token': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'output_path': './output', 'samples_to_save': 3, 'results': './results', 'dataset_name': 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset', 'model_name': 'facebook/deit-base-patch16-224', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-18 11:15:53,581 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-18 11:15:53,581 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-18_11.15.53
+2025-06-18 11:15:53,809 [INFO] [AUTENTICACION] Hugging Face. Autenticaciï¿½n exitosa.
+2025-06-18 11:15:53,809 [INFO] [CARGA DATASET] Cargando dataset: 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset'
+2025-06-18 11:15:58,123 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 1578
+    })
+})'
+2025-06-18 11:15:58,124 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-18 11:15:58,698 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-18 11:15:58,698 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-18 11:16:00,322 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-18_11.16.00_pre-transform_train_sample_3.png
+2025-06-18 11:16:00,322 [INFO] [PREPROCESS INFORMATION] Train size: 1135
+2025-06-18 11:16:00,323 [INFO] [PREPROCESS INFORMATION] Test size: 316
+2025-06-18 11:16:00,323 [INFO] [PREPROCESS INFORMATION] Validation size: 127
+2025-06-18 11:16:00,323 [INFO] [PREPROCESS INFORMATION] Train labels: ['benign', 'malignant', 'normal']
+2025-06-18 11:16:00,324 [INFO] [PREPROCESS INFORMATION] Test labels: ['benign', 'malignant', 'normal']
+2025-06-18 11:16:00,324 [INFO] [PREPROCESS INFORMATION] Validation labels: ['benign', 'malignant', 'normal']
+2025-06-18 11:16:00,324 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 3
+2025-06-18 11:16:00,324 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 3
+2025-06-18 11:16:00,324 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 3
+2025-06-18 11:16:00,325 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 11:16:00,325 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 11:18:48,526 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-18 11:18:48,526 [INFO] [PREPROCESAR DATASET] Finalizï¿½ preprocessor.
+2025-06-18 11:18:48,527 [INFO] [MODEL] Valores - model_name = facebook/deit-base-patch16-224 , num_labels = 3 .
+2025-06-18 11:18:49,850 [INFO] [MODEL] Modelo facebook/deit-base-patch16-224 creado con 3
+2025-06-18 11:18:49,850 [INFO] [PREPARE_MODEL] Finalizï¿½ prepare_model.
+2025-06-18 11:22:19,186 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 11:25:51,920 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 11:29:29,448 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 11:32:58,382 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 11:36:27,745 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 11:36:48,546 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 11:36:48,548 [INFO] [TRAIN][EVAL] 'eval_results': {'eval_loss': 0.16420231759548187, 'eval_accuracy': 0.9212598425196851, 'eval_runtime': 19.0706, 'eval_samples_per_second': 6.659, 'eval_steps_per_second': 0.419, 'epoch': 5.0}
+2025-06-18 11:36:52,293 [ERROR] [TRAIN] [EVAL] Error: expected Tensor as element 0 in argument 0, but got list
+2025-06-18 11:36:52,293 [ERROR] [MAIN] Error en el Pipeline: expected Tensor as element 0 in argument 0, but got list
+2025-06-18 11:46:10,953 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-18 11:46:10,953 [INFO] Inicializando la pipeline ViT...
+2025-06-18 11:46:10,957 [INFO] [CONFIGURACION] Configuraciï¿½n del modelo: {'huggingface_token': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'output_path': './output', 'samples_to_save': 3, 'results': './results', 'dataset_name': 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset', 'model_name': 'facebook/deit-base-patch16-224', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-18 11:46:10,957 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-18 11:46:10,957 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-18_11.46.10
+2025-06-18 11:46:11,171 [INFO] [AUTENTICACION] Hugging Face. Autenticaciï¿½n exitosa.
+2025-06-18 11:46:11,171 [INFO] [CARGA DATASET] Cargando dataset: 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset'
+2025-06-18 11:46:14,684 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 1578
+    })
+})'
+2025-06-18 11:46:14,684 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-18 11:46:15,136 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-18 11:46:15,136 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-18 11:46:15,769 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-18_11.46.15_pre-transform_train_sample_209.png
+2025-06-18 11:46:15,769 [INFO] [PREPROCESS INFORMATION] Train size: 1135
+2025-06-18 11:46:15,770 [INFO] [PREPROCESS INFORMATION] Test size: 316
+2025-06-18 11:46:15,770 [INFO] [PREPROCESS INFORMATION] Validation size: 127
+2025-06-18 11:46:15,770 [INFO] [PREPROCESS INFORMATION] Train labels: ['benign', 'malignant', 'normal']
+2025-06-18 11:46:15,770 [INFO] [PREPROCESS INFORMATION] Test labels: ['benign', 'malignant', 'normal']
+2025-06-18 11:46:15,771 [INFO] [PREPROCESS INFORMATION] Validation labels: ['benign', 'malignant', 'normal']
+2025-06-18 11:46:15,771 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 3
+2025-06-18 11:46:15,771 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 3
+2025-06-18 11:46:15,771 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 3
+2025-06-18 11:46:15,772 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 11:46:15,772 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 11:46:16,018 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-18 11:46:16,018 [INFO] [PREPROCESAR DATASET] Finalizï¿½ preprocessor.
+2025-06-18 11:46:16,019 [INFO] [MODEL] Valores - model_name = facebook/deit-base-patch16-224 , num_labels = 3 .
+2025-06-18 11:46:17,282 [INFO] [MODEL] Modelo facebook/deit-base-patch16-224 creado con 3
+2025-06-18 11:46:17,283 [INFO] [PREPARE_MODEL] Finalizï¿½ prepare_model.
+2025-06-18 11:47:08,380 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 11:47:59,392 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 11:48:50,139 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 11:49:41,000 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 11:50:33,024 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 11:50:38,168 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 11:50:38,170 [INFO] [TRAIN][EVAL] 'eval_results': {'eval_loss': 0.1930646151304245, 'eval_accuracy': 0.9291338582677166, 'eval_runtime': 3.3251, 'eval_samples_per_second': 38.194, 'eval_steps_per_second': 2.406, 'epoch': 5.0}
+2025-06-18 11:50:39,190 [ERROR] [TRAIN] [EVAL] Error: 'image'
+2025-06-18 11:50:39,190 [ERROR] [MAIN] Error en el Pipeline: 'image'
+2025-06-18 11:57:23,192 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-18 11:57:23,192 [INFO] Inicializando la pipeline ViT...
+2025-06-18 11:57:23,196 [INFO] [CONFIGURACION] Configuraciï¿½n del modelo: {'huggingface_token': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'output_path': './output', 'samples_to_save': 3, 'results': './results', 'dataset_name': 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset', 'model_name': 'facebook/deit-base-patch16-224', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-18 11:57:23,196 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-18 11:57:23,196 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-18_11.57.23
+2025-06-18 11:57:23,423 [INFO] [AUTENTICACION] Hugging Face. Autenticaciï¿½n exitosa.
+2025-06-18 11:57:23,423 [INFO] [CARGA DATASET] Cargando dataset: 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset'
+2025-06-18 11:57:26,718 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 1578
+    })
+})'
+2025-06-18 11:57:26,718 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-18 11:57:27,235 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-18 11:57:27,235 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-18 11:57:27,818 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-18_11.57.27_pre-transform_train_sample_121.png
+2025-06-18 11:57:27,818 [INFO] [PREPROCESS INFORMATION] Train size: 1135
+2025-06-18 11:57:27,818 [INFO] [PREPROCESS INFORMATION] Test size: 316
+2025-06-18 11:57:27,818 [INFO] [PREPROCESS INFORMATION] Validation size: 127
+2025-06-18 11:57:27,819 [INFO] [PREPROCESS INFORMATION] Train labels: ['benign', 'malignant', 'normal']
+2025-06-18 11:57:27,819 [INFO] [PREPROCESS INFORMATION] Test labels: ['benign', 'malignant', 'normal']
+2025-06-18 11:57:27,819 [INFO] [PREPROCESS INFORMATION] Validation labels: ['benign', 'malignant', 'normal']
+2025-06-18 11:57:27,819 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 3
+2025-06-18 11:57:27,820 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 3
+2025-06-18 11:57:27,820 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 3
+2025-06-18 11:57:27,820 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 11:57:27,821 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 11:57:28,068 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-18 11:57:28,069 [INFO] [PREPROCESAR DATASET] Finalizï¿½ preprocessor.
+2025-06-18 11:57:28,070 [INFO] [MODEL] Valores - model_name = facebook/deit-base-patch16-224 , num_labels = 3 .
+2025-06-18 11:57:29,381 [INFO] [MODEL] Modelo facebook/deit-base-patch16-224 creado con 3
+2025-06-18 11:57:29,381 [INFO] [PREPARE_MODEL] Finalizï¿½ prepare_model.
+2025-06-18 11:58:19,593 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 11:59:09,603 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:00:00,090 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:00:50,255 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:01:40,676 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:01:45,540 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:01:45,542 [INFO] [TRAIN][EVAL] 'eval_results': {'eval_loss': 0.21647027134895325, 'eval_accuracy': 0.9291338582677166, 'eval_runtime': 3.2083, 'eval_samples_per_second': 39.585, 'eval_steps_per_second': 2.494, 'epoch': 5.0}
+2025-06-18 12:01:49,437 [ERROR] [TRAIN] [EVAL] Error: expected Tensor as element 0 in argument 0, but got list
+2025-06-18 12:01:49,438 [ERROR] [MAIN] Error en el Pipeline: expected Tensor as element 0 in argument 0, but got list
+2025-06-18 12:43:15,514 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-18 12:43:15,514 [INFO] Inicializando la pipeline ViT...
+2025-06-18 12:43:15,518 [INFO] [CONFIGURACION] Configuraciï¿½n del modelo: {'huggingface_token': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'output_path': './output', 'samples_to_save': 3, 'results': './results', 'dataset_name': 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset', 'model_name': 'facebook/deit-base-patch16-224', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-18 12:43:15,518 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-18 12:43:15,518 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-18_12.43.15
+2025-06-18 12:43:15,708 [INFO] [AUTENTICACION] Hugging Face. Autenticaciï¿½n exitosa.
+2025-06-18 12:43:15,708 [INFO] [CARGA DATASET] Cargando dataset: 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset'
+2025-06-18 12:43:19,091 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 1578
+    })
+})'
+2025-06-18 12:43:19,091 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-18 12:43:19,606 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-18 12:43:19,606 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-18 12:43:20,719 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-18_12.43.20_pre-transform_train_sample_152.png
+2025-06-18 12:43:20,719 [INFO] [PREPROCESS INFORMATION] Train size: 1135
+2025-06-18 12:43:20,719 [INFO] [PREPROCESS INFORMATION] Test size: 316
+2025-06-18 12:43:20,719 [INFO] [PREPROCESS INFORMATION] Validation size: 127
+2025-06-18 12:43:20,720 [INFO] [PREPROCESS INFORMATION] Train labels: ['benign', 'malignant', 'normal']
+2025-06-18 12:43:20,720 [INFO] [PREPROCESS INFORMATION] Test labels: ['benign', 'malignant', 'normal']
+2025-06-18 12:43:20,720 [INFO] [PREPROCESS INFORMATION] Validation labels: ['benign', 'malignant', 'normal']
+2025-06-18 12:43:20,720 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 3
+2025-06-18 12:43:20,720 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 3
+2025-06-18 12:43:20,721 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 3
+2025-06-18 12:43:20,721 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 12:43:20,721 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 12:46:12,897 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-18 12:46:12,897 [INFO] [PREPROCESAR DATASET] Finalizï¿½ preprocessor.
+2025-06-18 12:46:12,897 [INFO] [MODEL] Valores - model_name = facebook/deit-base-patch16-224 , num_labels = 3 .
+2025-06-18 12:46:14,236 [INFO] [MODEL] Modelo facebook/deit-base-patch16-224 creado con 3
+2025-06-18 12:46:14,236 [INFO] [PREPARE_MODEL] Finalizï¿½ prepare_model.
+2025-06-18 12:47:06,705 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:47:58,334 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:48:50,529 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:49:42,543 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:50:34,427 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:50:39,391 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:50:39,393 [INFO] [TRAIN][EVAL] 'eval_results': {'eval_loss': 0.2126123458147049, 'eval_accuracy': 0.9133858267716536, 'eval_runtime': 3.3009, 'eval_samples_per_second': 38.474, 'eval_steps_per_second': 2.424, 'epoch': 5.0}
+2025-06-18 12:50:43,398 [ERROR] [TRAIN] [EVAL] Error: expected Tensor as element 0 in argument 0, but got list
+2025-06-18 12:50:43,398 [ERROR] [MAIN] Error en el Pipeline: expected Tensor as element 0 in argument 0, but got list
+2025-06-18 12:52:26,294 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-18 12:52:26,294 [INFO] Inicializando la pipeline ViT...
+2025-06-18 12:52:26,297 [INFO] [CONFIGURACION] Configuraciï¿½n del modelo: {'huggingface_token': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'output_path': './output', 'samples_to_save': 3, 'results': './results', 'dataset_name': 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset', 'model_name': 'facebook/deit-base-patch16-224', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-18 12:52:26,297 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-18 12:52:26,297 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-18_12.52.26
+2025-06-18 12:52:26,521 [INFO] [AUTENTICACION] Hugging Face. Autenticaciï¿½n exitosa.
+2025-06-18 12:52:26,523 [INFO] [CARGA DATASET] Cargando dataset: 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset'
+2025-06-18 12:52:30,244 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 1578
+    })
+})'
+2025-06-18 12:52:30,244 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-18 12:52:30,763 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-18 12:52:30,764 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-18 12:52:31,385 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-18_12.52.31_pre-transform_train_sample_67.png
+2025-06-18 12:52:31,386 [INFO] [PREPROCESS INFORMATION] Train size: 1135
+2025-06-18 12:52:31,386 [INFO] [PREPROCESS INFORMATION] Test size: 316
+2025-06-18 12:52:31,386 [INFO] [PREPROCESS INFORMATION] Validation size: 127
+2025-06-18 12:52:31,387 [INFO] [PREPROCESS INFORMATION] Train labels: ['benign', 'malignant', 'normal']
+2025-06-18 12:52:31,387 [INFO] [PREPROCESS INFORMATION] Test labels: ['benign', 'malignant', 'normal']
+2025-06-18 12:52:31,387 [INFO] [PREPROCESS INFORMATION] Validation labels: ['benign', 'malignant', 'normal']
+2025-06-18 12:52:31,388 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 3
+2025-06-18 12:52:31,388 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 3
+2025-06-18 12:52:31,388 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 3
+2025-06-18 12:52:31,390 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 12:52:31,390 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 12:52:31,678 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-18 12:52:31,678 [INFO] [PREPROCESAR DATASET] Finalizï¿½ preprocessor.
+2025-06-18 12:52:31,679 [INFO] [MODEL] Valores - model_name = facebook/deit-base-patch16-224 , num_labels = 3 .
+2025-06-18 12:52:32,969 [INFO] [MODEL] Modelo facebook/deit-base-patch16-224 creado con 3
+2025-06-18 12:52:32,969 [INFO] [PREPARE_MODEL] Finalizï¿½ prepare_model.
+2025-06-18 12:53:24,267 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:54:15,619 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:55:06,535 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:55:58,576 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:56:51,397 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:56:56,677 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 12:56:56,678 [INFO] [TRAIN][EVAL] 'eval_results': {'eval_loss': 0.16940173506736755, 'eval_accuracy': 0.9291338582677166, 'eval_runtime': 3.2793, 'eval_samples_per_second': 38.728, 'eval_steps_per_second': 2.44, 'epoch': 5.0}
+2025-06-18 12:57:07,454 [INFO] [TRAIN] Entrenamiento completo.
+2025-06-18 12:57:07,454 [INFO] [MAIN] El Pipeline finalizï¿½.
+2025-06-18 13:56:31,078 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-18 13:56:31,079 [INFO] Inicializando la pipeline ViT...
+2025-06-18 13:56:31,091 [INFO] [CONFIGURACION] Configuraciï¿½n del modelo: {'huggingface_token': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'output_path': './output', 'samples_to_save': 3, 'results': './results', 'dataset_name': 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset', 'model_name': 'facebook/deit-base-patch16-224', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-18 13:56:31,091 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-18 13:56:31,091 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-18_13.56.31
+2025-06-18 13:56:31,446 [INFO] [AUTENTICACION] Hugging Face. Autenticaciï¿½n exitosa.
+2025-06-18 13:56:31,447 [INFO] [CARGA DATASET] Cargando dataset: 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset'
+2025-06-18 13:56:34,970 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 1578
+    })
+})'
+2025-06-18 13:56:34,971 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-18 13:56:35,563 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-18 13:56:35,563 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-18 13:56:36,840 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-18_13.56.36_pre-transform_train_sample_264.png
+2025-06-18 13:56:36,840 [INFO] [PREPROCESS INFORMATION] Train size: 1135
+2025-06-18 13:56:36,840 [INFO] [PREPROCESS INFORMATION] Test size: 316
+2025-06-18 13:56:36,840 [INFO] [PREPROCESS INFORMATION] Validation size: 127
+2025-06-18 13:56:36,841 [INFO] [PREPROCESS INFORMATION] Train labels: ['benign', 'malignant', 'normal']
+2025-06-18 13:56:36,841 [INFO] [PREPROCESS INFORMATION] Test labels: ['benign', 'malignant', 'normal']
+2025-06-18 13:56:36,841 [INFO] [PREPROCESS INFORMATION] Validation labels: ['benign', 'malignant', 'normal']
+2025-06-18 13:56:36,841 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 3
+2025-06-18 13:56:36,841 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 3
+2025-06-18 13:56:36,841 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 3
+2025-06-18 13:56:36,843 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 13:56:36,843 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 13:59:15,628 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-18 13:59:15,630 [INFO] [PREPROCESAR DATASET] Finalizï¿½ preprocessor.
+2025-06-18 13:59:15,630 [INFO] [MODEL] Valores - model_name = facebook/deit-base-patch16-224 , num_labels = 3 .
+2025-06-18 13:59:16,958 [INFO] [MODEL] Modelo facebook/deit-base-patch16-224 creado con 3
+2025-06-18 13:59:16,959 [INFO] [PREPARE_MODEL] Finalizï¿½ prepare_model.
+2025-06-18 14:00:08,401 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 14:00:59,142 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 14:01:49,747 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 14:02:40,833 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 14:03:32,025 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 14:03:36,735 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 14:03:36,737 [INFO] [TRAIN][EVAL] 'eval_results': {'eval_loss': 0.19510020315647125, 'eval_accuracy': 0.9291338582677166, 'eval_runtime': 3.1766, 'eval_samples_per_second': 39.98, 'eval_steps_per_second': 2.518, 'epoch': 5.0}
+2025-06-18 14:03:47,030 [INFO] [TRAIN] Entrenamiento completo.
+2025-06-18 14:03:47,030 [INFO] [MAIN] El Pipeline finalizï¿½.
+2025-06-18 17:01:23,455 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-18 17:01:23,456 [INFO] Inicializando la pipeline ViT...
+2025-06-18 17:01:23,456 [ERROR] [CONFIGURACION] Error al cargar configuraciï¿½n: [Errno 2] No such file or directory: 'config.yaml'
+2025-06-18 17:01:59,633 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-18 17:01:59,635 [INFO] Inicializando la pipeline ViT...
+2025-06-18 17:01:59,638 [INFO] [CONFIGURACION] Configuraciï¿½n del modelo: {'huggingface_token': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'output_path': './output', 'samples_to_save': 3, 'results': './results', 'dataset_name': 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset', 'model_name': 'facebook/deit-base-patch16-224', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-18 17:01:59,638 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-18 17:01:59,638 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-18_17.01.59
+2025-06-18 17:01:59,896 [ERROR] [AUTENTICACION] Hugging Face. Error de autenticaciï¿½n: Invalid user token.
+2025-06-18 17:01:59,896 [ERROR] [MAIN] Error en el Pipeline: Invalid user token.
+2025-06-18 17:03:35,052 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-18 17:03:35,052 [INFO] Inicializando la pipeline ViT...
+2025-06-18 17:03:35,076 [INFO] [CONFIGURACION] Configuraciï¿½n del modelo: {'huggingface_token': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'output_path': './output', 'samples_to_save': 3, 'results': './results', 'dataset_name': 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset', 'model_name': 'facebook/deit-base-patch16-224', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5'}
+2025-06-18 17:03:35,076 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-18 17:03:35,076 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-18_17.03.35
+2025-06-18 17:03:35,349 [INFO] [AUTENTICACION] Hugging Face. Autenticaciï¿½n exitosa.
+2025-06-18 17:03:35,350 [INFO] [CARGA DATASET] Cargando dataset: 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset'
+2025-06-18 17:03:38,649 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 1578
+    })
+})'
+2025-06-18 17:03:38,650 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-18 17:03:39,249 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-18 17:03:39,250 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-18 17:03:40,657 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-18_17.03.40_pre-transform_train_sample_77.png
+2025-06-18 17:03:40,657 [INFO] [PREPROCESS INFORMATION] Train size: 1135
+2025-06-18 17:03:40,657 [INFO] [PREPROCESS INFORMATION] Test size: 316
+2025-06-18 17:03:40,657 [INFO] [PREPROCESS INFORMATION] Validation size: 127
+2025-06-18 17:03:40,657 [INFO] [PREPROCESS INFORMATION] Train labels: ['benign', 'malignant', 'normal']
+2025-06-18 17:03:40,657 [INFO] [PREPROCESS INFORMATION] Test labels: ['benign', 'malignant', 'normal']
+2025-06-18 17:03:40,657 [INFO] [PREPROCESS INFORMATION] Validation labels: ['benign', 'malignant', 'normal']
+2025-06-18 17:03:40,657 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 3
+2025-06-18 17:03:40,657 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 3
+2025-06-18 17:03:40,657 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 3
+2025-06-18 17:03:40,660 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 17:03:40,660 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 17:03:41,302 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-18 17:03:41,302 [INFO] [PREPROCESAR DATASET] Finalizï¿½ preprocessor.
+2025-06-18 17:03:41,302 [INFO] [MODEL] Valores - model_name = facebook/deit-base-patch16-224 , num_labels = 3 .
+2025-06-18 17:03:42,981 [INFO] [MODEL] Modelo facebook/deit-base-patch16-224 creado con 3
+2025-06-18 17:03:42,982 [INFO] [PREPARE_MODEL] Finalizï¿½ prepare_model.
+2025-06-18 17:04:38,394 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 17:05:32,061 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 17:06:25,379 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 17:07:18,765 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 17:08:12,272 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 17:08:36,435 [ERROR] [TRAIN] [TRAIN] Error: When an mlflow-artifacts URI was supplied, the tracking URI must be a valid http or https URI, but it was currently set to file:///C:/Proyectos/UBA/tp_vpc3/mlruns. Perhaps you forgot to set the tracking URI to the running MLflow server. To set the tracking URI, use either of the following methods:
+1. Set the MLFLOW_TRACKING_URI environment variable to the desired tracking URI. `export MLFLOW_TRACKING_URI=http://localhost:5000`
+2. Set the tracking URI programmatically by calling `mlflow.set_tracking_uri`. `mlflow.set_tracking_uri('http://localhost:5000')`
+2025-06-18 17:08:36,435 [ERROR] [MAIN] Error en el Pipeline: When an mlflow-artifacts URI was supplied, the tracking URI must be a valid http or https URI, but it was currently set to file:///C:/Proyectos/UBA/tp_vpc3/mlruns. Perhaps you forgot to set the tracking URI to the running MLflow server. To set the tracking URI, use either of the following methods:
+1. Set the MLFLOW_TRACKING_URI environment variable to the desired tracking URI. `export MLFLOW_TRACKING_URI=http://localhost:5000`
+2. Set the tracking URI programmatically by calling `mlflow.set_tracking_uri`. `mlflow.set_tracking_uri('http://localhost:5000')`
+2025-06-18 17:20:52,285 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-18 17:20:52,286 [INFO] Inicializando la pipeline ViT...
+2025-06-18 17:20:52,290 [INFO] [CONFIGURACION] Configuraciï¿½n del modelo: {'huggingface_token': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'output_path': './output', 'samples_to_save': 3, 'results': './results', 'dataset_name': 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset', 'model_name': 'facebook/deit-base-patch16-224', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5', 'tracking_url': 'http://localhost:5000'}
+2025-06-18 17:20:52,291 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-18 17:20:52,291 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-18_17.20.52
+2025-06-18 17:20:52,510 [INFO] [AUTENTICACION] Hugging Face. Autenticaciï¿½n exitosa.
+2025-06-18 17:20:52,510 [INFO] [CARGA DATASET] Cargando dataset: 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset'
+2025-06-18 17:20:55,553 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 1578
+    })
+})'
+2025-06-18 17:20:55,554 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-18 17:20:56,067 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-18 17:20:56,067 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-18 17:20:56,696 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-18_17.20.56_pre-transform_train_sample_226.png
+2025-06-18 17:20:56,697 [INFO] [PREPROCESS INFORMATION] Train size: 1135
+2025-06-18 17:20:56,697 [INFO] [PREPROCESS INFORMATION] Test size: 316
+2025-06-18 17:20:56,699 [INFO] [PREPROCESS INFORMATION] Validation size: 127
+2025-06-18 17:20:56,699 [INFO] [PREPROCESS INFORMATION] Train labels: ['benign', 'malignant', 'normal']
+2025-06-18 17:20:56,699 [INFO] [PREPROCESS INFORMATION] Test labels: ['benign', 'malignant', 'normal']
+2025-06-18 17:20:56,699 [INFO] [PREPROCESS INFORMATION] Validation labels: ['benign', 'malignant', 'normal']
+2025-06-18 17:20:56,699 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 3
+2025-06-18 17:20:56,699 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 3
+2025-06-18 17:20:56,700 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 3
+2025-06-18 17:20:56,700 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 17:20:56,701 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 17:23:36,419 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-18 17:23:36,428 [INFO] [PREPROCESAR DATASET] Finalizï¿½ preprocessor.
+2025-06-18 17:23:36,429 [INFO] [MODEL] Valores - model_name = facebook/deit-base-patch16-224 , num_labels = 3 .
+2025-06-18 17:23:37,794 [INFO] [MODEL] Modelo facebook/deit-base-patch16-224 creado con 3
+2025-06-18 17:23:37,794 [INFO] [PREPARE_MODEL] Finalizï¿½ prepare_model.
+2025-06-18 17:24:34,712 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 17:25:28,895 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 17:26:22,881 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 17:27:17,767 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 17:28:11,797 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 17:28:40,582 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 17:28:40,874 [INFO] [TRAIN][EVAL] 'eval_results': {'eval_loss': 0.2127951681613922, 'eval_accuracy': 0.9133858267716536, 'eval_runtime': 3.2189, 'eval_samples_per_second': 39.454, 'eval_steps_per_second': 2.485, 'epoch': 5.0}
+2025-06-18 17:28:52,893 [INFO] [TRAIN] Entrenamiento completo.
+2025-06-18 17:28:53,045 [INFO] [MAIN] El Pipeline finalizï¿½.
+2025-06-18 18:38:19,034 [INFO] -------------------------------------------------------------------------------------------------
+2025-06-18 18:38:19,034 [INFO] Inicializando la pipeline ViT...
+2025-06-18 18:38:19,053 [INFO] [CONFIGURACION] Configuración del modelo: {'huggingface_token': '***', 'output_path': './output', 'samples_to_save': 3, 'results': './results', 'dataset_name': 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset', 'model_name': 'facebook/deit-base-patch16-224', 'batch_size': 16, 'num_epochs': 5, 'learning_rate': '2e-5', 'tracking_url': 'http://localhost:5000'}
+2025-06-18 18:38:19,054 [INFO] [MAIN] Ejecutando el pipeline...
+2025-06-18 18:38:19,054 [INFO] [TESTING] Fecha_Hora de Tools: 2025-06-18_18.38.19
+2025-06-18 18:38:19,380 [INFO] [AUTENTICACION] Hugging Face. Autenticación exitosa.
+2025-06-18 18:38:19,380 [INFO] [CARGA DATASET] Cargando dataset: 'gymprathap/Breast-Cancer-Ultrasound-Images-Dataset'
+2025-06-18 18:38:22,822 [INFO] [CARGA DATASET] 
+ 'DatasetDict({
+    train: Dataset({
+        features: ['image', 'label'],
+        num_rows: 1578
+    })
+})'
+2025-06-18 18:38:22,822 [INFO] [PREPROCESAR DATASET] Inicializando preprocessor...
+2025-06-18 18:38:23,417 [INFO] [PREPROCESS SPLIT] Crear dataset de Train, Valid y Test.
+2025-06-18 18:38:23,418 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Salvar imagen ejemplo de Train: pre-transform.
+2025-06-18 18:38:24,855 [INFO] [PREPROCESS SAVE TRAIN SAMPLE] Imagenes salvadas. Ruta: ./output/2025-06-18_18.38.24_pre-transform_train_sample_248.png
+2025-06-18 18:38:24,855 [INFO] [PREPROCESS INFORMATION] Train size: 1135
+2025-06-18 18:38:24,855 [INFO] [PREPROCESS INFORMATION] Test size: 316
+2025-06-18 18:38:24,855 [INFO] [PREPROCESS INFORMATION] Validation size: 127
+2025-06-18 18:38:24,855 [INFO] [PREPROCESS INFORMATION] Train labels: ['benign', 'malignant', 'normal']
+2025-06-18 18:38:24,855 [INFO] [PREPROCESS INFORMATION] Test labels: ['benign', 'malignant', 'normal']
+2025-06-18 18:38:24,855 [INFO] [PREPROCESS INFORMATION] Validation labels: ['benign', 'malignant', 'normal']
+2025-06-18 18:38:24,855 [INFO] [PREPROCESS INFORMATION] Train Class Quantity: 3
+2025-06-18 18:38:24,855 [INFO] [PREPROCESS INFORMATION] Test Class Quantity: 3
+2025-06-18 18:38:24,855 [INFO] [PREPROCESS INFORMATION] Validation Class Quantity: 3
+2025-06-18 18:38:24,858 [INFO] [GET TRANSFORMS] Configurar transformaciones: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 18:38:24,858 [INFO] [PREPROCESS DATA] Transformacion a aplicar: Compose(
+    RandomHorizontalFlip(p=0.5)
+    RandomRotation(degrees=[-15.0, 15.0], interpolation=nearest, expand=False, fill=0)
+    RandomAffine(degrees=[0.0, 0.0], translate=(0.1, 0.1), scale=(0.9, 1.1))
+    RandomResizedCrop(size=(224, 224), scale=(0.8, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)
+    GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 2.0))
+)
+2025-06-18 18:38:25,494 [INFO] [PREPROCESS DATA] Pre-procesar datasets, aplicando transformaciones.
+2025-06-18 18:38:25,494 [INFO] [PREPROCESAR DATASET] Finalizó preprocessor.
+2025-06-18 18:38:25,507 [INFO] [MODEL] Valores - model_name = facebook/deit-base-patch16-224 , num_labels = 3 .
+2025-06-18 18:38:26,804 [INFO] [MODEL] Modelo facebook/deit-base-patch16-224 creado con 3
+2025-06-18 18:38:26,804 [INFO] [PREPARE_MODEL] Finalizó prepare_model.
+2025-06-18 18:39:21,491 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 18:40:13,021 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 18:41:04,968 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 18:41:56,546 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 18:42:48,854 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 18:43:19,264 [INFO] [TRAIN] [COMPUTE_METRICS] Compute metrics completo.
+2025-06-18 18:43:19,585 [INFO] [TRAIN][EVAL] 'eval_results': {'eval_loss': 0.16281196475028992, 'eval_accuracy': 0.9448818897637795, 'eval_runtime': 3.5013, 'eval_samples_per_second': 36.272, 'eval_steps_per_second': 2.285, 'epoch': 5.0}
+2025-06-18 18:43:31,667 [INFO] [TRAIN] Entrenamiento completo.
+2025-06-18 18:43:31,780 [INFO] [MAIN] El Pipeline finalizó.
