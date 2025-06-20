@@ -1,3 +1,11 @@
+# Trabajo Final - Visión por computadora III
+
+Autores
+
+- Herrera, Daniel Fernando
+- Pacheco Barrios, Niels Víctor
+- Pérez Omodeo, Carolina
+
 # 🧠 ViT Image Classification Pipeline
 
 Este proyecto implementa un pipeline completo para clasificación de imágenes utilizando modelos Vision Transformer (ViT). Está diseñado para entrenar, evaluar y registrar modelos con trazabilidad y modularidad, incorporando MLflow para experimentación reproducible.
