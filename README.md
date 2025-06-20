@@ -8,26 +8,26 @@ Este proyecto implementa un pipeline completo para clasificación de imágenes u
 
 ```
 .
-├── config.yaml
-├── logger_config.py
-├── main.py
-├── model.py
-├── preprocess.py
-├── trainer.py
-├── tools.py
+└── vpc3/
+    └── (entorno virtual)
+├── .gitignore
 ├── requirements.txt
 ├── requirements_torch.txt
-├── .gitignore
+├── config.yaml
+├── logger_config.py
+├── tools.py
+├── main.py
+├── preprocess.py
+├── model.py
+├── trainer.py
 ├── logs/
 │   └── pipeline.log
-├── mlartifacts/
-├── mlruns/
 ├── output/
 │   └── (imagenes ejemplo pre-transform)
 ├── results/
 │   └── (checkpoints del modelo)
-└── vpc3/
-    └── (entorno virtual)
+├── mlartifacts/
+├── mlruns/
 ```
 
 ---
@@ -36,7 +36,7 @@ Este proyecto implementa un pipeline completo para clasificación de imágenes u
 
 - Creación de entorno virtual (`vpc3`)
 - Definición de `requirements.txt` y `requirements_torch.txt` para dependencias
-- Modularización del código en clases: `Model`, `Preprocess`, `Trainer`, `Model_Pipeline`
+- Modularización del código en clases: `Model_Pipeline`, `Preprocess`, `Model`, `Trainer`
 - Manejo de errores con `try/except`
 - Uso de `logging` para trazabilidad en consola y archivo (`logs/pipeline.log`)
   - INFO: mensajes informativos para seguimiento de ejecución del pipeline.
@@ -133,16 +133,16 @@ Orquesta todo el flujo:
 - Prepara modelo
 - Entrena y evalúa
 
-### `model.py`
-
-Carga el modelo ViT desde `transformers` con el número de clases detectado.
-
 ### `preprocess.py`
 
 - Divide el dataset en `train`, `validation`, `test`
 - Aplica transformaciones de data augmentation
 - Convierte imágenes con `AutoImageProcessor`
 - Guarda imágenes ejemplo (pre-transformación) en `output/`
+
+### `model.py`
+
+Carga el modelo ViT desde `transformers` con el número de clases detectado.
 
 ### `trainer.py`
 
